@@ -1,0 +1,123 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+
+::: {.hero-name}
+Rebeca Hannah de Melo Oliveira, PhD
+
+Computational Scientist in Quantitative Pharmacology
+:::
+
+# Connecting biological mechanisms to therapeutic decisions
+
+<p class="hero-subtitle">
+I am Rebeca Oliveira, a biomedical engineer and computational scientist
+at Johns Hopkins University. I build mechanistic and data-informed models
+to investigate how biological systems, patient heterogeneity, and drug
+mechanisms shape treatment response.
+</p>
+
+<p class="hero-subtitle">
+I am particularly interested in models that do more than reproduce data:
+models that help explain why a treatment works, for whom, and under which
+biological conditions.
+</p>
+
+<p class="hero-fields">
+Quantitative Systems Pharmacology · Pharmacometrics · Systems Biology
+</p>
+
+[Selected work](#selected-work){.btn .btn-primary}
+[About me](about.qmd){.btn .btn-outline-primary}
+[GitHub](https://github.com/RebecaHannahOliveira){.btn .btn-outline-primary}
+
+:::
+
+## Selected work {#selected-work}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+
+### Mechanistic Systems Biology
+
+Published mechanistic models of Notch, HGF, and HIF signaling developed
+to investigate how cellular pathways regulate complex physiological and
+pathological processes.
+
+[HIF](projects/hif-signaling.qmd){.btn .btn-outline-primary}
+[HGF–VEGF](projects/hgf-vegf-signaling.qmd){.btn .btn-outline-primary}
+[Notch–Dll4](projects/notch-dll4.qmd){.btn .btn-outline-primary}
+
+
+<span class="project-tag">ODE modeling</span>
+<span class="project-tag">Signaling</span>
+<span class="project-tag">Published research</span>
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+
+### QSP in Oncology
+
+Mechanistic models and virtual populations used to investigate treatment
+response, biological heterogeneity, and translational questions in cancer
+immunotherapy.
+
+[Learn more](projects/qsp.qmd){.btn .btn-outline-primary}
+
+<span class="project-tag">QSP</span>
+<span class="project-tag">Oncology</span>
+<span class="project-tag">Virtual populations</span>
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.project-card}
+
+### Population Pharmacokinetics
+
+A growing portfolio in NCA, population PK, covariate analysis, model
+diagnostics, uncertainty quantification, and simulation.
+
+[Explore warfarin project](projects/warfarin-population-pk.qmd){.btn .btn-outline-primary}
+
+<span class="project-tag">PopPK</span>
+<span class="project-tag">PK/PD</span>
+<span class="project-tag">Monolix</span>
+<span class="project-tag">R</span>
+
+
+:::
+:::
+
+:::
+
+## What I am exploring now
+
+::: {.project-card}
+
+### Natural Products and Translational Modeling
+
+I am expanding my quantitative pharmacology work toward natural products,
+medicinal plants, and complex biological interventions. My goal is to connect
+traditional therapeutic knowledge with mechanistic pharmacology, systems
+biology, and modern drug-development methods.
+
+<span class="project-tag">Natural products</span>
+<span class="project-tag">Translational modeling</span>
+<span class="project-tag">Emerging research</span>
+<span class="project-tag">Machine Learning</span>
+<span class="project-tag">Python</span>
+
+
+
+:::

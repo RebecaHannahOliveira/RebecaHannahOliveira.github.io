@@ -1,0 +1,576 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My publications span mechanistic systems biology, angiogenesis, physiological modeling, biomedical devices, biomaterials, and computational methods.\nThe selected publications below represent the central development of my mechanistic modeling research.\nView my Google Scholar profile"
+  },
+  {
+    "objectID": "publications.html#selected-mechanistic-modeling-publications",
+    "href": "publications.html#selected-mechanistic-modeling-publications",
+    "title": "Publications",
+    "section": "Selected mechanistic modeling publications",
+    "text": "Selected mechanistic modeling publications\n\nMechanistic computational model of HIF signaling\nOliveira, R. H. M., Pathak, A. P., & Popel, A. S. (2026).\nA mechanistic computational model of the HIF signaling pathway.\niScience, 29(6), 116195.\nThis study developed a mechanistic model of hypoxia-inducible factor signaling to investigate the regulation and dynamics of cellular responses to hypoxia.\nView publication\nExplore project\nHIF Hypoxia Mechanistic modeling\n\n\nHGF-VEGF signaling in endothelial cells\nOliveira, R. H. M., Patil, A., Annex, B. H., Pathak, A. P., & Popel, A. S. (2025).\nMechanistic computational model of HGF-VEGF mediated endothelial cell proliferation and vascular permeability.\niScience, 28(8), 113199.\nThis work integrated HGF and VEGF signaling to investigate endothelial-cell proliferation and vascular permeability under conditions relevant to angiogenesis and vascular disease.\nView publication\nExplore project\nHGF VEGF Angiogenesis\n\n\nNotch-Dll4 signaling and endothelial patterning\nOliveira, R. H. M., Annex, B. H., & Popel, A. S. (2024).\nEndothelial cells signaling and patterning under hypoxia: a mechanistic integrative computational model including the Notch-Dll4 pathway.\nFrontiers in Physiology, 15, 1351753.\nThis study used an integrative mechanistic model to investigate how Notch-Dll4 and other pro-angiogenic signals regulate endothelial-cell patterning under hypoxia.\nView publication\nExplore project\nNotch-Dll4 Endothelial cells Hypoxia"
+  },
+  {
+    "objectID": "publications.html#additional-peer-reviewed-articles",
+    "href": "publications.html#additional-peer-reviewed-articles",
+    "title": "Publications",
+    "section": "Additional peer-reviewed articles",
+    "text": "Additional peer-reviewed articles\n\nOliveira, R. H. M., Oliveira, D. S., Pimenta, A. N., Santos, L. E., Lima, G. O., Fachin-Martins, E., Silva, D. B. B., Souza, J. P. B., Oliveira, J. H., & Rosa, S. S. R. F. (2023).\nControl engineering investigation of the effects of proliferative diabetic retinopathy on the crystalline lens and ciliary muscle dynamic behavior. Research on Biomedical Engineering.\nDOI\nSantana, T. F., Oliveira, R. H. M., dos Santos, L. E., et al. (2022).\nEffect of exposure to a light-emitting diode on the physicochemical characteristics of natural latex biomembranes used to treat diabetic ulcers. Research on Biomedical Engineering.\nDOI\nZhang, Y., Wang, H., Oliveira, R. H. M., Zhao, C., & Popel, A. S. (2021).\nSystems biology of angiogenesis signaling: Computational models and omics. WIREs Mechanisms of Disease, e1550.\nDOI\nOliveira, R. H. M., Oliveira, D. S., Pimenta, A. N., Santos, L. E., Lima, G. O., Fachin-Martins, E., Silva, D. B. B., Souza, J. P. B., Oliveira, J. H., & Rosa, S. S. R. F. (2020).\nImprovement and analysis of a mechanically adapted Lofstrand Crutch model through bond graph modelling.\nInternational Journal of Modelling, Identification and Control, 36(3), 256–270.\nDOI\nOchoa, M., Rahimi, R., Zhou, J., Jiang, H., Yoon, C. K., Maddipatla, D., Narakathu, B. B., Jain, V., Oscai, M. M., Morken, T. J., Oliveira, R. H. M., & Ziaie, B. (2020).\nIntegrated sensing and delivery of oxygen for next-generation smart wound dressings. Microsystems & Nanoengineering, 6(1), 1–16.\nDOI"
+  },
+  {
+    "objectID": "publications.html#book-chapter",
+    "href": "publications.html#book-chapter",
+    "title": "Publications",
+    "section": "Book chapter",
+    "text": "Book chapter\nOliveira, R. H. M., et al.\nA Bond Graph Approach to Modelling of the Human Skin.\nIn Mechanisms and Machine Science, Volume 95. Springer.\nView chapter"
+  },
+  {
+    "objectID": "publications.html#selected-conference-contributions",
+    "href": "publications.html#selected-conference-contributions",
+    "title": "Publications",
+    "section": "Selected conference contributions",
+    "text": "Selected conference contributions\n\nOliveira, R., Senarathna, J., Dinh, V., Popel, A. S., & Pathak, A. P. (2025).\nAn image-informed computational model for predicting spatiotemporal variations in cerebral blood flow. Physiology, 40(S1), 0793.\nAn SVM classifier with autoencoder feature extractor for breast cancer diagnosis. XIII Biomedical Engineering Symposium, 2021.\nA manufacturable smart dressing with oxygen delivery and sensing capability for chronic wound management. SPIE Micro- and Nanotechnology Sensors, Systems, and Applications X, 2018.\nPrediction of nocturnal hypoglycemia in type 1 diabetes by measuring heart-rate variability through a pulse sensor. Brazilian Congress on Biomedical Engineering, 2018.\nPneumatic muscle with smart braid used in an orthosis. ABCM International Congress of Mechanical Engineering, 2017."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html",
+    "href": "projects/warfarin-population-pk.html",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "",
+    "text": "NoteEducational scope\n\n\n\nThis is an independent educational case study developed to build practical experience in population pharmacokinetic modeling with Monolix and R.\nThe analysis was not designed for clinical decision-making, dose selection, regulatory use, or publication. Results should therefore be interpreted as a demonstration of model-development reasoning rather than as a new clinical model of warfarin."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#project-overview",
+    "href": "projects/warfarin-population-pk.html#project-overview",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Project overview",
+    "text": "Project overview\nI used a publicly available warfarin pharmacokinetic dataset to develop and evaluate a population PK model through a stepwise nonlinear mixed-effects modeling workflow.\nThe project focused on learning how structural, statistical, and covariate modeling decisions interact. Rather than selecting a model solely from its objective function, I evaluated convergence, parameter precision, diagnostic plots, biological plausibility, and bootstrap stability.\nThe final model was a parsimonious one-compartment model with delayed first-order absorption, linear elimination, a combined residual-error model, fixed allometric effects of body weight, and an estimated effect of age on clearance."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#dataset",
+    "href": "projects/warfarin-population-pk.html#dataset",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset contains single-dose warfarin pharmacokinetic observations from 32 healthy volunteers, with 251 plasma concentration measurements.\nAvailable subject characteristics included:\n\nbody weight;\nage;\nsex;\nadministered dose;\nsampling time;\nplasma warfarin concentration.\n\nThe study included measurements extending from the absorption phase through 120 hours after administration. Sampling intensity varied between individuals, creating both richly sampled and relatively sparse concentration-time profiles.\n\n\n\nObserved median concentrations and population and individual predictions over time. The shaded region represents the observed interquartile range.\n\n\nThe dataset is distributed as an educational example with MonolixSuite and was originally derived from clinical studies by O’Reilly and colleagues.\nAccess the Monolix warfarin dataset"
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#educational-objectives",
+    "href": "projects/warfarin-population-pk.html#educational-objectives",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Educational objectives",
+    "text": "Educational objectives\nThe main objectives were to gain practical experience with:\n\nexploratory analysis of longitudinal PK data;\nstructural model selection;\nresidual-error model selection;\ninterindividual variability;\ncovariate screening and model building;\nfixed allometric scaling;\nSAEM convergence assessment;\ngoodness-of-fit diagnostics;\nvisual predictive checks;\nrandom-effect and residual diagnostics;\nnonparametric bootstrap uncertainty analysis;\nrecognizing overparameterization and weak identifiability."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#model-development-workflow",
+    "href": "projects/warfarin-population-pk.html#model-development-workflow",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Model-development workflow",
+    "text": "Model-development workflow\nI evaluated 15 candidate models representing combinations of:\n\none- and two-compartment disposition;\ndelayed and non-delayed absorption;\nalternative residual-error models;\ndifferent random-effect structures;\nweight and age covariate effects;\nestimated and fixed allometric relationships;\nalternative initial parameter values.\n\nModel development was performed iteratively. Each modification was evaluated using parameter estimates, relative standard errors, information criteria, convergence traces, diagnostic plots, and biological interpretability."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#structural-model-investigation",
+    "href": "projects/warfarin-population-pk.html#structural-model-investigation",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Structural-model investigation",
+    "text": "Structural-model investigation\nA two-compartment model improved the likelihood-based criteria and produced reasonable individual predictions. However, the apparent improvement was not supported by adequate parameter stability.\nIn particular, intercompartmental clearance (Q) showed:\n\na high relative standard error;\nstrong sensitivity to initialization;\nan extremely broad and asymmetric bootstrap distribution;\noccasional implausibly large estimates in resampled datasets.\n\nThe bootstrap mean for (Q) was strongly influenced by extreme runs and was substantially different from its median and reference estimate. This indicated that the available sampling design did not reliably support estimation of the additional distribution parameters.\nFor this reason, the two-compartment model was not retained despite its lower objective function.\n\n\n\n\n\n\nTipModeling lesson\n\n\n\nA more complex model can improve likelihood-based criteria while still being poorly supported by the data. Parameter stability, identifiability, and predictive behavior must be considered together with AIC, BIC, and the objective function."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#final-population-pk-model",
+    "href": "projects/warfarin-population-pk.html#final-population-pk-model",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Final population PK model",
+    "text": "Final population PK model\nThe selected model consisted of:\n\none disposition compartment;\nfirst-order absorption;\nan absorption lag time;\nlinear elimination;\nlognormally distributed individual parameters;\ninterindividual variability on (k_a), (V), and (Cl);\nfixed allometric effects of body weight;\nan estimated age effect on clearance;\na combined additive and proportional residual-error model.\n\nFor individual (i), volume and clearance were represented as:\n\\[\nV_i =\nV_{\\mathrm{pop}}\n\\left(\\frac{WT_i}{70}\\right)^1\n\\exp(\\eta_{V,i})\n\\]\nand\n\\[\nCl_i =\nCl_{\\mathrm{pop}}\n\\left(\\frac{WT_i}{70}\\right)^{0.75}\n\\exp\\left(\\beta_{\\mathrm{age}}\\,\n\\frac{AGE_i-40}{10}\\right)\n\\exp(\\eta_{Cl,i}).\n\\]\nThe fixed exponents of 1 for volume and 0.75 for clearance reflect conventional allometric scaling assumptions.\nThe combined residual-error model was:\n\\[\ny_{ij} =\n\\hat y_{ij} +\n\\left(a+b\\hat y_{ij}\\right)\\varepsilon_{ij},\n\\qquad\n\\varepsilon_{ij}\\sim\\mathcal N(0,1).\n\\]"
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#final-parameter-estimates",
+    "href": "projects/warfarin-population-pk.html#final-parameter-estimates",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Final parameter estimates",
+    "text": "Final parameter estimates\n\n\n\n\n\n\n\n\nParameter\nDescription\nEstimate\n\n\n\n\n\\(Tlag_{\\mathrm{pop}}\\)\nAbsorption lag time\n0.828 h\n\n\n\\(k_{a,\\mathrm{pop}}\\)\nFirst-order absorption rate\n1.287 h\\(^{-1}\\)\n\n\n\\(V_{\\mathrm{pop}}\\)\nVolume for a 70-kg individual\n8.026 L\n\n\n\\(Cl_{\\mathrm{pop}}\\)\nClearance for a 40-year-old, 70-kg individual\n0.146 L/h\n\n\n\\(\\beta_{\\mathrm{Cl,age}}\\)\nAge effect on clearance per decade\n0.095\n\n\n\\(\\omega_{ka}\\)\nRandom-effect SD for absorption\n0.948\n\n\n\\(\\omega_V\\)\nRandom-effect SD for volume\n0.141\n\n\n\\(\\omega_{Cl}\\)\nRandom-effect SD for clearance\n0.246\n\n\n\\(a\\)\nAdditive-error parameter\n0.281\n\n\n\\(b\\)\nProportional-error parameter\n0.0718\n\n\n\nWithin this dataset, the estimated age coefficient corresponds to an approximately 10% increase in typical clearance per decade:\n\\[\n\\exp(0.095)\\approx 1.10.\n\\]\nThis relationship should be treated as an exploratory dataset-specific result, not as a clinical conclusion."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#covariate-assessment",
+    "href": "projects/warfarin-population-pk.html#covariate-assessment",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Covariate assessment",
+    "text": "Covariate assessment\nInitial diagnostic analyses showed strong relationships between individual volume estimates and body weight and a weaker relationship between clearance and body weight.\nWeight effects on volume and clearance were therefore represented through fixed allometric scaling. This reduced the need to estimate poorly supported covariate exponents while retaining a physiologically interpretable relationship.\nAfter accounting for weight, age remained associated with the clearance random effect. An age effect was consequently evaluated and retained in the final educational model.\nSex was investigated but was not retained after accounting for the available continuous covariates."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#bootstrap-uncertainty-analysis",
+    "href": "projects/warfarin-population-pk.html#bootstrap-uncertainty-analysis",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Bootstrap uncertainty analysis",
+    "text": "Bootstrap uncertainty analysis\nA nonparametric bootstrap with 200 resampled datasets was used to examine parameter stability.\nSelected bootstrap results were:\n\n\n\nParameter\nReference\nBootstrap median\n95% interval\n\n\n\n\n\\(Tlag_{\\mathrm{pop}}\\)\n0.828\n0.841\n0.595–1.367\n\n\n\\(k_{a,\\mathrm{pop}}\\)\n1.287\n1.280\n0.639–4.697\n\n\n\\(V_{\\mathrm{pop}}\\)\n8.026\n8.079\n7.648–8.521\n\n\n\\(Cl_{\\mathrm{pop}}\\)\n0.146\n0.147\n0.127–0.178\n\n\n\\(\\beta_{\\mathrm{Cl,age}}\\)\n0.095\n0.096\n0.010–0.226\n\n\n\\(\\omega_{ka}\\)\n0.948\n0.968\n0.557–1.715\n\n\n\\(\\omega_V\\)\n0.141\n0.135\n0.083–0.164\n\n\n\\(\\omega_{Cl}\\)\n0.246\n0.231\n0.148–0.300\n\n\n\n\n\n\nBootstrap medians and 95% intervals expressed relative to the original model estimates.\n\n\nVolume and clearance were estimated relatively consistently across bootstrap samples. Absorption parameters and the age effect were more uncertain, reflecting limited information about early absorption and the small number of participants."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#model-diagnostics",
+    "href": "projects/warfarin-population-pk.html#model-diagnostics",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Model diagnostics",
+    "text": "Model diagnostics\nPopulation and individual predictions generally captured the concentration-time profiles, and individual predictions aligned closely with observed concentrations.\n\n\n\nObserved warfarin concentrations compared with population and individual predictions.\n\n\nThe visual predictive check showed that the observed central tendency was generally represented by the model and that most observations remained within the simulated prediction interval.\nHowever, the diagnostic analysis also identified limitations:\n\nseveral residual-distribution tests rejected normality;\nthe clearance random effects departed from the assumed normal distribution;\na small number of individuals had large standardized clearance effects;\nsparse or late-only sampling limited individual information for some subjects;\nabsorption variability remained imprecisely estimated.\n\nThese findings were retained as part of the model evaluation rather than hidden by selecting the most favorable diagnostics.\n\n\n\nIndividual weighted residuals plotted against time and individual predictions."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#sampling-design-investigation",
+    "href": "projects/warfarin-population-pk.html#sampling-design-investigation",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Sampling-design investigation",
+    "text": "Sampling-design investigation\nInspection of individuals with large standardized clearance effects showed that these estimates were not explained by a single sampling category.\nBoth richly sampled and late-only participants contributed to the extremes. This suggested that the observed behavior reflected a combination of genuine individual profiles, residual variability, small-sample effects, and limited information rather than a simple data-processing error.\nThe exercise reinforced the importance of evaluating individual parameter estimates in the context of each subject’s observation schedule."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#key-lessons",
+    "href": "projects/warfarin-population-pk.html#key-lessons",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Key lessons",
+    "text": "Key lessons\nThis project provided practical experience with several central principles of population PK model development:\n\nModel complexity must be supported by the data.\nA lower objective function did not justify retaining an unstable two-compartment structure.\nCovariate selection requires multiple forms of evidence.\nStatistical tests, diagnostic plots, biological plausibility, uncertainty, and parameter stability were considered together.\nBootstrap distributions can reveal weaknesses hidden by local standard errors.\nThe instability of (Q) became especially clear through resampling.\nGood individual predictions are not sufficient evidence of model adequacy.\nResidual behavior, parameter distributions, predictive diagnostics, and uncertainty must also be examined.\nTransparent limitations strengthen an educational analysis.\nThe final model is useful as a learning exercise while remaining subject to the limitations of a small historical dataset."
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#tools",
+    "href": "projects/warfarin-population-pk.html#tools",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Tools",
+    "text": "Tools\nMonolix R SAEM PopPK Bootstrap Covariate modeling"
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#data-and-scientific-references",
+    "href": "projects/warfarin-population-pk.html#data-and-scientific-references",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Data and scientific references",
+    "text": "Data and scientific references\nThe dataset and original clinical context are available from the following sources:\n\nMonolixSuite: Warfarin dataset and downloadable data file\nO’Reilly and Aggeler (1968): Initiation of warfarin therapy without a loading dose\nO’Reilly (1963): The pharmacodynamics of warfarin in man\nHolford (1986): Clinical pharmacokinetics and pharmacodynamics of warfarin\nVuong, Verbeke, and Dreesen (2025): Warfarin PopPK case study and publicly available supporting data"
+  },
+  {
+    "objectID": "projects/warfarin-population-pk.html#reproducibility-and-use",
+    "href": "projects/warfarin-population-pk.html#reproducibility-and-use",
+    "title": "Population Pharmacokinetics of Warfarin",
+    "section": "Reproducibility and use",
+    "text": "Reproducibility and use\nThis project uses public educational data and independently developed model files and analysis scripts.\nAny code shared with this case study is intended for demonstration and reproducibility. It has not been validated for clinical, regulatory, or dosing applications."
+  },
+  {
+    "objectID": "projects/notch-dll4.html",
+    "href": "projects/notch-dll4.html",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "",
+    "text": "Angiogenesis depends on coordinated signaling between neighboring endothelial cells. Through lateral inhibition mediated by the Notch–Dll4 pathway, these cells acquire distinct tip and stalk phenotypes that guide the formation of new blood vessels.\nI developed a mechanistic, ordinary differential equation-based model to investigate how endothelial cells communicate and differentiate under different oxygen conditions and levels of VEGFA stimulation.\nThe model integrates intracellular and intercellular signaling to connect molecular pathway activation with endothelial cell patterning and functional responses."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#project-overview",
+    "href": "projects/notch-dll4.html#project-overview",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "",
+    "text": "Angiogenesis depends on coordinated signaling between neighboring endothelial cells. Through lateral inhibition mediated by the Notch–Dll4 pathway, these cells acquire distinct tip and stalk phenotypes that guide the formation of new blood vessels.\nI developed a mechanistic, ordinary differential equation-based model to investigate how endothelial cells communicate and differentiate under different oxygen conditions and levels of VEGFA stimulation.\nThe model integrates intracellular and intercellular signaling to connect molecular pathway activation with endothelial cell patterning and functional responses."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#scientific-question",
+    "href": "projects/notch-dll4.html#scientific-question",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Scientific question",
+    "text": "Scientific question\nHow do oxygen availability, VEGFA gradients, and Notch–Dll4 signaling interact to regulate endothelial tip–stalk patterning during angiogenesis?\nThe work also investigated whether these mechanisms influence downstream endothelial functions, including nitric oxide production and vascular permeability."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#modeling-approach",
+    "href": "projects/notch-dll4.html#modeling-approach",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nThe model represents two neighboring endothelial cells that receive different levels of VEGFA stimulation and communicate through the Notch–Dll4 pathway.\nIt integrates six major signaling modules:\n\nVEGF–VEGFR signaling\nNotch–Dll4 lateral inhibition\nHIF-mediated oxygen sensing\nAkt–eNOS signaling\nRaf–MEK–ERK signaling\nCalcium and nitric oxide dynamics\n\nThe complete model contains:\n\n183 molecular species\n222 biochemical reactions\n184 parameters\n183 ordinary differential equations\n\nModel development followed a structured workflow combining:\n\nstructural and practical identifiability analysis;\nglobal sensitivity analysis;\nparameter estimation using experimental time-course data;\nuncertainty quantification through bootstrap analysis;\nvalidation against independent experimental datasets.\n\nTo quantify endothelial phenotype, I introduced the Endothelial Cell Pattern Index (ECPI), a dimensionless ratio based on molecular markers associated with stalk and tip cells:\n\\[\n\\mathrm{ECPI} =\n\\frac{[\\mathrm{Hes1}]\\,[\\mathrm{VEGFR1}]}\n     {[\\mathrm{Dll4}]\\,[\\mathrm{VEGFR2}]}\n\\]\nHigher values indicate a stronger stalk-like signaling profile relative to a tip-like profile."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#key-findings",
+    "href": "projects/notch-dll4.html#key-findings",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Key findings",
+    "text": "Key findings\n\nEndothelial patterning requires differential VEGFA stimulation\nThe model predicted that neighboring endothelial cells require unequal exposure to extracellular VEGFA to establish distinct tip and stalk signaling profiles.\nHypoxia increased the activation of several angiogenic pathways but did not independently generate cell patterning when both cells received equivalent VEGFA stimulation.\n\n\nPatterning mechanisms depend on oxygen and time\nThe signaling mechanisms controlling tip–stalk differentiation differed between normoxia and hypoxia. Their relative influence also changed with the duration of hypoxic exposure.\nThese results indicate that both oxygen availability and time under hypoxia should be considered when attempting to control endothelial phenotype.\n\n\nMultiple pathways shape tip–stalk identity\nAlthough Notch signaling directly mediates lateral inhibition, global sensitivity analysis showed that VEGF, ERK, and Akt signaling parameters also strongly influenced the endothelial patterning index.\nThis illustrates how cell fate emerges from the integrated signaling network rather than from the Notch pathway in isolation.\n\n\nNotch signaling may influence vascular permeability\nSimulations predicted that changes in Dll4-mediated Notch activation produce different nitric oxide responses in neighboring endothelial cells.\nBecause VEGF-induced nitric oxide contributes to vascular hyperpermeability, the model suggests a potential mechanistic connection between Notch signaling and vascular leakiness.\n\n\nThe model reproduced experimental Notch inhibition\nSimulated inhibition of γ-secretase with DAPT reduced VEGF-induced NICD and Hes1 signaling. Consequently, the two endothelial cells developed more similar molecular profiles, consistent with published experimental observations."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#calibration-and-validation",
+    "href": "projects/notch-dll4.html#calibration-and-validation",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Calibration and validation",
+    "text": "Calibration and validation\nThe model was calibrated using experimental measurements of VEGF- and hypoxia-responsive signaling, including:\n\nVEGFR2 activation;\nAkt and ERK phosphorylation;\ncalcium signaling;\neNOS activation and nitric oxide production;\nDll4, NICD, and Hes1 dynamics;\nHIF1α, HIF2α, and VEGFA responses.\n\nIndependent datasets were used to evaluate predictions for Dll4, Akt, eNOS, ERK, and HIF signaling.\nIdentifiability and sensitivity analyses reduced the original set of 66 unknown parameters to 20 parameters selected for estimation, improving the feasibility and interpretability of model calibration."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#my-contribution",
+    "href": "projects/notch-dll4.html#my-contribution",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "My contribution",
+    "text": "My contribution\nI led the computational development of this project. My contributions included:\n\nconceptualization;\nmodel construction and software implementation;\ndata curation;\nparameter estimation and formal analysis;\nidentifiability, sensitivity, and uncertainty analyses;\nmodel validation;\nsimulation design and visualization;\nproject administration;\npreparation and revision of the manuscript."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#scientific-value",
+    "href": "projects/notch-dll4.html#scientific-value",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Scientific value",
+    "text": "Scientific value\nThis project provides an integrative computational framework for studying how molecular signaling coordinates endothelial behavior during angiogenesis.\nThe model can be extended to investigate interventions targeting Notch, VEGF, or related pathways in pro- and anti-angiogenic therapeutic contexts. It also established the methodological foundation for my subsequent mechanistic models of HGF–VEGF signaling and HIF pathway regulation."
+  },
+  {
+    "objectID": "projects/notch-dll4.html#publication",
+    "href": "projects/notch-dll4.html#publication",
+    "title": "Endothelial Patterning Through Notch–Dll4 Signaling",
+    "section": "Publication",
+    "text": "Publication\nOliveira, R. H. de M., Annex, B. H., and Popel, A. S. (2024).\nEndothelial cells signaling and patterning under hypoxia: a mechanistic integrative computational model including the Notch–Dll4 pathway.\nFrontiers in Physiology, 15, 1351753.\nRead the open-access article"
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html",
+    "href": "projects/hgf-vegf-signaling.html",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "",
+    "text": "Hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF) are major regulators of angiogenesis. Although both can promote endothelial proliferation, they can have contrasting effects on vascular permeability and vessel stability.\nThis project developed an integrative mechanistic model to investigate how HGF and VEGF separately and jointly regulate endothelial-cell proliferation and permeability under normoxia and hypoxia.\n\n\n\nApplication: angiogenesis and vascular signaling\nModel type: mechanistic ordinary differential equation model\nScale: 93 species, 112 reactions, and 186 parameters\nCalibration: global parameter estimation with identifiability-based parameter selection\nEvaluation: sensitivity analysis, bootstrap uncertainty quantification, residual analysis, and independent validation\nSoftware: MATLAB and SimBiology\nPublication: iScience, 2025"
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#project-overview",
+    "href": "projects/hgf-vegf-signaling.html#project-overview",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "",
+    "text": "Hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF) are major regulators of angiogenesis. Although both can promote endothelial proliferation, they can have contrasting effects on vascular permeability and vessel stability.\nThis project developed an integrative mechanistic model to investigate how HGF and VEGF separately and jointly regulate endothelial-cell proliferation and permeability under normoxia and hypoxia.\n\n\n\nApplication: angiogenesis and vascular signaling\nModel type: mechanistic ordinary differential equation model\nScale: 93 species, 112 reactions, and 186 parameters\nCalibration: global parameter estimation with identifiability-based parameter selection\nEvaluation: sensitivity analysis, bootstrap uncertainty quantification, residual analysis, and independent validation\nSoftware: MATLAB and SimBiology\nPublication: iScience, 2025"
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#scientific-questions",
+    "href": "projects/hgf-vegf-signaling.html#scientific-questions",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Scientific questions",
+    "text": "Scientific questions\nThe model was designed to investigate:\n\nWhich mechanisms may explain the divergent effects of HGF and VEGF on vascular permeability?\nHow does acute hypoxia alter signaling through these pathways?\nDoes HGF require VEGFR2 activation to influence proliferation or permeability?\nHow might HGF and VEGF be combined to promote proliferation while maintaining vascular stability?"
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#modeling-approach",
+    "href": "projects/hgf-vegf-signaling.html#modeling-approach",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nThe model integrates:\n\nVEGF-VEGFR2 signaling;\nHGF-cMet signaling;\nPI3K-Akt and ERK pathways;\ncalcium and nitric-oxide signaling;\nhypoxia-dependent regulation;\nPAK1 phosphorylation;\nendothelial proliferation and permeability responses.\n\nStructural and practical identifiability analyses were used to identify estimable parameter combinations. Global sensitivity analysis then selected the most influential unknown parameters for calibration.\nTo translate molecular signaling into functional predictions, the study introduced two model-derived quantities:\n\na proliferation index;\na permeability index.\n\nThese indices enabled systematic comparison of HGF, VEGF, and combined stimulation across doses and oxygen conditions."
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#key-findings",
+    "href": "projects/hgf-vegf-signaling.html#key-findings",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Key findings",
+    "text": "Key findings\n\nHGF and VEGF produce distinct permeability responses\nDose-response simulations predicted that HGF can counteract VEGF-induced endothelial permeability. However, increasing VEGF exposure progressively reduced the ability of HGF to maintain vascular stability.\n\n\nHGF does not require VEGFR2 activation\nThe model predicted that HGF can influence endothelial proliferation and permeability through cMet-mediated signaling without requiring VEGFR2 activation.\n\n\nPAK1 provides a mechanistic explanation\nSite-specific PAK1 phosphorylation emerged as an important mechanism distinguishing HGF- and VEGF-mediated permeability responses.\n\n\nContext-specific pathway regulation\nGlobal sensitivity analyses showed that the parameters governing proliferation and permeability depend on ligand exposure, oxygen conditions, and the timing of the response."
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#model-evaluation",
+    "href": "projects/hgf-vegf-signaling.html#model-evaluation",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Model evaluation",
+    "text": "Model evaluation\nThe model was calibrated and evaluated against experimental data from multiple sources under normoxia and hypoxia.\nKey evaluation results included:\n\nreproduction of time- and dose-dependent experimental trends;\nvalidation against dose-response data not used in calibration;\nRuns tests consistent with an absence of systematic residual bias, with an average p = 0.648;\nbootstrap-based uncertainty quantification;\nagreement with reported combined HGF-VEGF effects on downstream signaling."
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#my-contribution",
+    "href": "projects/hgf-vegf-signaling.html#my-contribution",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "My contribution",
+    "text": "My contribution\nI co-developed the study concept, constructed the complete computational model, performed all simulations and quantitative analyses, and wrote the initial manuscript draft."
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#scientific-value",
+    "href": "projects/hgf-vegf-signaling.html#scientific-value",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Scientific value",
+    "text": "Scientific value\nThe model provides a mechanistic framework for investigating pro-angiogenic strategies in diseases involving ischemia, vascular instability, or abnormal angiogenesis. It also demonstrates how molecular-signaling models can be connected to functional vascular outcomes."
+  },
+  {
+    "objectID": "projects/hgf-vegf-signaling.html#publication-and-model-access",
+    "href": "projects/hgf-vegf-signaling.html#publication-and-model-access",
+    "title": "Mechanistic Modeling of HGF-VEGF Signaling",
+    "section": "Publication and model access",
+    "text": "Publication and model access\nOliveira, R. H. M., Patil, A., Annex, B. H., Pathak, A. P., & Popel, A. S. (2025).\nMechanistic computational model of HGF-VEGF-mediated endothelial cell proliferation and vascular permeability.\niScience, 28(8), 113199.\nRead the article Download the model"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Computational scientist with training in electrical and biomedical engineering and experience in mechanistic systems biology, quantitative systems pharmacology, translational modeling, virtual populations, and population pharmacokinetics.\nMy research combines biological mechanisms, mathematical modeling, and experimental or clinical data to investigate treatment response and support scientific decision-making.\nEmail me LinkedIn"
+  },
+  {
+    "objectID": "cv.html#professional-profile",
+    "href": "cv.html#professional-profile",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Computational scientist with training in electrical and biomedical engineering and experience in mechanistic systems biology, quantitative systems pharmacology, translational modeling, virtual populations, and population pharmacokinetics.\nMy research combines biological mechanisms, mathematical modeling, and experimental or clinical data to investigate treatment response and support scientific decision-making.\nEmail me LinkedIn"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "Professional experience",
+    "text": "Professional experience\n\nPostdoctoral Fellow\nPopel Systems Biology Laboratory\nJohns Hopkins University School of Medicine\nOctober 2025 – present\n\nDeveloping mechanistic QSP models for oncology drug development.\nModeling multispecific therapeutic mechanisms.\nIntegrating drug mechanisms with tumor and microenvironment biology.\nGenerating and evaluating virtual populations.\nSupporting in silico clinical-trial simulation and biomarker analysis.\nApplying sensitivity and uncertainty analyses to investigate biological heterogeneity."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biomedical Engineering\nJohns Hopkins University\n2020–2025\nResearch in mechanistic computational modeling of angiogenesis, cellular signaling, cerebral hemodynamics, and disease-related biological processes.\n\n\nMaster’s Degree in Biomedical Engineering\nUniversity of Brasília\n2018–2020\nResearch involving machine learning, peripheral arterial disease, medical devices, physiological modeling, and biomaterials.\n\n\nBachelor’s Degree in Electrical Engineering\nUniversity Center of Brasília\n2013–2018\nTraining in engineering, electronics, signal processing, programming, and biomedical-device development."
+  },
+  {
+    "objectID": "cv.html#quantitative-modeling-expertise",
+    "href": "cv.html#quantitative-modeling-expertise",
+    "title": "Curriculum Vitae",
+    "section": "Quantitative modeling expertise",
+    "text": "Quantitative modeling expertise\n\nQuantitative systems pharmacology\nMechanistic systems biology\nPopulation pharmacokinetics and PK/PD\nVirtual populations and in silico trials\nOrdinary differential equation modeling\nParameter estimation and model calibration\nGlobal sensitivity and uncertainty analysis\nMachine-learning integration\nImage-informed computational modeling"
+  },
+  {
+    "objectID": "cv.html#selected-honors-and-awards",
+    "href": "cv.html#selected-honors-and-awards",
+    "title": "Curriculum Vitae",
+    "section": "Selected honors and awards",
+    "text": "Selected honors and awards\n\nVan Harreveld Memorial Award, American Physiology Summit, 2025\nZweifach Graduate Student Travel Award, American Physiology Summit, 2025\nCAPES-Fulbright PhD Scholarship, 2020\nWomen in Science Program, British Council, 2019\nOutstanding Award in the Exact and Technological Sector, University of Brasília Scientific Initiation Congress, 2018\nBrazil Scientific Mobility Program Scholarship, CAPES, 2015 - Purdue University, IN, USA"
+  },
+  {
+    "objectID": "cv.html#teaching-and-mentoring",
+    "href": "cv.html#teaching-and-mentoring",
+    "title": "Curriculum Vitae",
+    "section": "Teaching and mentoring",
+    "text": "Teaching and mentoring\n\nHead Teaching Assistant for Biological Models and Simulations at Johns Hopkins University\nUndergraduate student final-project advising\nTeaching Assistant in calculus, physics, differential equations, numerical methods, circuits, signal processing, and programming"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research experience",
+    "text": "Research experience\nMy research experience includes:\n\nmechanistic modeling of Notch, HGF, VEGF, and HIF signaling;\nangiogenesis and peripheral arterial disease;\ncancer immunotherapy and quantitative oncology;\ncerebral blood-flow and image-informed modeling;\nmachine learning/deep learning models for cerebral hemodynamics and cardiovascular data;\nbiomedical devices and physiological systems;\nbiomaterials and chronic-wound technologies."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nSee the Publications page for peer-reviewed articles, conference contributions, and selected project summaries."
+  },
+  {
+    "objectID": "cv.html#downloadable-cv",
+    "href": "cv.html#downloadable-cv",
+    "title": "Curriculum Vitae",
+    "section": "Downloadable CV",
+    "text": "Downloadable CV\nDownload PDF CV View publications"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a Brazilian biomedical engineer and computational scientist with a PhD in Biomedical Engineering from Johns Hopkins University. I am currently a postdoctoral fellow at the Popel Systems Biology Lab (Johns Hopkins University School of Medicine), where I develop mechanistic models to support translational research and drug development.\nMy work lies at the intersection of biology, pharmacology, and computation. I use mathematical models to organize complex biological knowledge, test mechanistic hypotheses, quantify uncertainty, identify biomarkers and investigate how differences between individuals may influence treatment response."
+  },
+  {
+    "objectID": "about.html#scientist-engineer-and-model-builder",
+    "href": "about.html#scientist-engineer-and-model-builder",
+    "title": "About",
+    "section": "",
+    "text": "I am a Brazilian biomedical engineer and computational scientist with a PhD in Biomedical Engineering from Johns Hopkins University. I am currently a postdoctoral fellow at the Popel Systems Biology Lab (Johns Hopkins University School of Medicine), where I develop mechanistic models to support translational research and drug development.\nMy work lies at the intersection of biology, pharmacology, and computation. I use mathematical models to organize complex biological knowledge, test mechanistic hypotheses, quantify uncertainty, identify biomarkers and investigate how differences between individuals may influence treatment response."
+  },
+  {
+    "objectID": "about.html#my-research-path",
+    "href": "about.html#my-research-path",
+    "title": "About",
+    "section": "My research path",
+    "text": "My research path\nMy research began in mechanistic systems biology, with models of signaling and regulatory processes involving Notch-Dll4, hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF), and hypoxia-inducible factor (HIF). These projects taught me how to translate biological mechanisms into mathematical structures and how to use models to generate experimentally relevant insight.\nI subsequently expanded into quantitative systems pharmacology, oncology, and virtual-population modeling. This work focuses on connecting drug mechanisms and biological heterogeneity with clinically relevant outcomes.\nI am now building additional expertise in pharmacometrics, including noncompartmental analysis, population pharmacokinetics, covariate modeling, model diagnostics, simulation, and uncertainty quantification."
+  },
+  {
+    "objectID": "about.html#how-i-approach-modeling",
+    "href": "about.html#how-i-approach-modeling",
+    "title": "About",
+    "section": "How I approach modeling",
+    "text": "How I approach modeling\nI am especially interested in models that are:\n\nmechanistically interpretable;\ninformed by experimental or clinical data;\ntransparent about uncertainty and limitations;\nevaluated for numerical and predictive robustness;\ndesigned to answer a clear scientific or therapeutic question.\n\nFor me, a model is most useful when it does more than reproduce observations: it should clarify assumptions, connect evidence across scales, and help guide the next scientific decision."
+  },
+  {
+    "objectID": "about.html#emerging-directions",
+    "href": "about.html#emerging-directions",
+    "title": "About",
+    "section": "Emerging directions",
+    "text": "Emerging directions\nA long-term goal of my work is to apply quantitative pharmacology and systems modeling to a broader range of therapeutic questions. I am particularly interested in natural products, medicinal plants, and complex interventions that are difficult to investigate using conventional single-target approaches.\nThis direction brings together my background in mechanistic modeling with my growing experience in pharmacometrics and translational pharmacology."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am interested in scientific collaborations and opportunities involving quantitative pharmacology, mechanistic modeling, pharmacometrics, and translational research.\nYou can reach me through:\n\n\n\nrhdmo94@gmail.com\n\n\n\nlinkedin.com/in/rebeca-hannah-de-melo-oliveira\n\n\n\ngithub.com/RebecaHannahOliveira"
+  },
+  {
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact",
+    "section": "",
+    "text": "I am interested in scientific collaborations and opportunities involving quantitative pharmacology, mechanistic modeling, pharmacometrics, and translational research.\nYou can reach me through:\n\n\n\nrhdmo94@gmail.com\n\n\n\nlinkedin.com/in/rebeca-hannah-de-melo-oliveira\n\n\n\ngithub.com/RebecaHannahOliveira"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Connecting biological mechanisms to therapeutic decisions",
+    "section": "",
+    "text": "Rebeca Hannah de Melo Oliveira, PhD\nComputational Scientist in Quantitative Pharmacology\n\n\n\n\nI am Rebeca Oliveira, a biomedical engineer and computational scientist at Johns Hopkins University. I build mechanistic and data-informed models to investigate how biological systems, patient heterogeneity, and drug mechanisms shape treatment response.\n\n\nI am particularly interested in models that do more than reproduce data: models that help explain why a treatment works, for whom, and under which biological conditions.\n\n\nQuantitative Systems Pharmacology · Pharmacometrics · Systems Biology\n\nSelected work About me GitHub"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Connecting biological mechanisms to therapeutic decisions",
+    "section": "Selected work",
+    "text": "Selected work\n\n\n\nMechanistic Systems Biology\nPublished mechanistic models of Notch, HGF, and HIF signaling developed to investigate how cellular pathways regulate complex physiological and pathological processes.\nHIF HGF–VEGF Notch–Dll4\nODE modeling Signaling Published research\n\n\n\n\nQSP in Oncology\nMechanistic models and virtual populations used to investigate treatment response, biological heterogeneity, and translational questions in cancer immunotherapy.\nLearn more\nQSP Oncology Virtual populations\n\n\n\n\nPopulation Pharmacokinetics\nA growing portfolio in NCA, population PK, covariate analysis, model diagnostics, uncertainty quantification, and simulation.\nExplore warfarin project\nPopPK PK/PD Monolix R"
+  },
+  {
+    "objectID": "index.html#what-i-am-exploring-now",
+    "href": "index.html#what-i-am-exploring-now",
+    "title": "Connecting biological mechanisms to therapeutic decisions",
+    "section": "What I am exploring now",
+    "text": "What I am exploring now\n\nNatural Products and Translational Modeling\nI am expanding my quantitative pharmacology work toward natural products, medicinal plants, and complex biological interventions. My goal is to connect traditional therapeutic knowledge with mechanistic pharmacology, systems biology, and modern drug-development methods.\nNatural products Translational modeling Emerging research Machine Learning Python"
+  },
+  {
+    "objectID": "projects/hif-signaling.html",
+    "href": "projects/hif-signaling.html",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "",
+    "text": "Hypoxia activates cellular oxygen-sensing mechanisms that promote adaptation, survival, and angiogenesis. Although HIF1 and HIF2 are both central to this response, they exhibit different temporal behaviors and regulatory roles that are difficult to resolve experimentally.\nThis project developed a mechanistic model of the PHD-HIF-VEGFA signaling axis in endothelial cells, with explicit representation of HIF1α, HIF2α, PHD2, PHD3, and VEGFA mRNA.\n\n\n\nApplication: endothelial hypoxia signaling\nModel type: mechanistic ordinary differential equation model\nCalibration: particle swarm optimization followed by local refinement\nEvaluation: identifiability analysis, uncertainty quantification, residual analysis, and independent validation\nSoftware: MATLAB and SimBiology\nPublication: iScience, 2026"
+  },
+  {
+    "objectID": "projects/hif-signaling.html#project-overview",
+    "href": "projects/hif-signaling.html#project-overview",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "",
+    "text": "Hypoxia activates cellular oxygen-sensing mechanisms that promote adaptation, survival, and angiogenesis. Although HIF1 and HIF2 are both central to this response, they exhibit different temporal behaviors and regulatory roles that are difficult to resolve experimentally.\nThis project developed a mechanistic model of the PHD-HIF-VEGFA signaling axis in endothelial cells, with explicit representation of HIF1α, HIF2α, PHD2, PHD3, and VEGFA mRNA.\n\n\n\nApplication: endothelial hypoxia signaling\nModel type: mechanistic ordinary differential equation model\nCalibration: particle swarm optimization followed by local refinement\nEvaluation: identifiability analysis, uncertainty quantification, residual analysis, and independent validation\nSoftware: MATLAB and SimBiology\nPublication: iScience, 2026"
+  },
+  {
+    "objectID": "projects/hif-signaling.html#scientific-question",
+    "href": "projects/hif-signaling.html#scientific-question",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Scientific question",
+    "text": "Scientific question\nHow do oxygen availability, HIF isoform dynamics, and PHD-mediated feedback interact to regulate endothelial responses during acute and prolonged hypoxia?\nThe model was designed to investigate:\n\ngraded sensitivity to oxygen availability;\nthe transition from an acute HIF1-dominated response to a prolonged HIF2-dominated response;\nthe relative contributions of HIF1 and HIF2 to VEGFA regulation;\nthe distinct effects of PHD2 and PHD3 inhibition."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#modeling-approach",
+    "href": "projects/hif-signaling.html#modeling-approach",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nThe model integrates oxygen-dependent hydroxylation and degradation of HIF proteins, nuclear signaling, transcriptional feedback, and VEGFA mRNA regulation.\nThe development workflow included:\n\nliterature-based model construction;\nstructural identifiability analysis;\npractical identifiability analysis;\nglobal parameter estimation using particle swarm optimization;\nlocal parameter refinement;\nuncertainty quantification;\nvalidation against independent experimental datasets;\npredictive simulations under new oxygen and inhibition scenarios."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#key-findings",
+    "href": "projects/hif-signaling.html#key-findings",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Key findings",
+    "text": "Key findings\n\nTime-dependent HIF isoform switch\nThe model reproduced a rapid HIF1α response after the onset of hypoxia, followed by a delayed and more sustained HIF2α response. This captured the experimentally reported transition from acute HIF1-dominated signaling to prolonged HIF2-dominated signaling.\n\n\nOxygen-dependent response\nSimulations predicted graded stabilization of HIF1α and HIF2α across oxygen levels, accompanied by dose- and time-dependent induction of VEGFA mRNA.\n\n\nDistinct roles of PHD2 and PHD3\nPerturbation simulations predicted that PHD2 and PHD3 have complementary, non-redundant, and isoform-specific effects on HIF stabilization and VEGFA regulation.\n\n\nFractional regulation of VEGFA\nThe model quantified the changing contributions of HIF1 and HIF2 to VEGFA mRNA regulation during prolonged hypoxia."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#model-evaluation",
+    "href": "projects/hif-signaling.html#model-evaluation",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Model evaluation",
+    "text": "Model evaluation\nThe model was calibrated using endothelial-cell experimental data and validated against independent datasets not used for parameter estimation.\nAcross validation observables:\n\nPearson correlations ranged from 0.70 to 0.95;\nRuns tests showed no systematic residual bias (p ≥ 0.35);\nthe model reproduced the major temporal trends of HIF1α, HIF2α, and VEGFA mRNA.\n\nThe analysis also documented limitations arising from heterogeneous experimental datasets, measurement platforms, and oxygen conditions."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#my-contribution",
+    "href": "projects/hif-signaling.html#my-contribution",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "My contribution",
+    "text": "My contribution\nI co-developed the study concept, constructed the complete computational model, performed all simulations and quantitative analyses, and wrote the initial manuscript draft."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#scientific-value",
+    "href": "projects/hif-signaling.html#scientific-value",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Scientific value",
+    "text": "Scientific value\nThe model provides a technically evaluated and reusable representation of endothelial hypoxia signaling. It can serve as a module for larger models of ischemic disease, angiogenesis, tumor hypoxia, and quantitative systems pharmacology."
+  },
+  {
+    "objectID": "projects/hif-signaling.html#publication-and-model-access",
+    "href": "projects/hif-signaling.html#publication-and-model-access",
+    "title": "Mechanistic Modeling of HIF Signaling",
+    "section": "Publication and model access",
+    "text": "Publication and model access\nOliveira, R. H. M., Pathak, A. P., & Popel, A. S. (2026).\nA mechanistic computational model of the HIF signaling pathway in endothelial cells. iScience, 29(6), 116195.\nRead the article Download the SBML model"
+  },
+  {
+    "objectID": "projects/qsp.html",
+    "href": "projects/qsp.html",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "",
+    "text": "NotePublic-project scope\n\n\n\nThis page describes the scientific scope and modeling methods involved in my current postdoctoral research.\nBecause the work is ongoing and conducted within an academic–industry collaboration, compound identities, model structure, parameter values, simulation results, and project-specific conclusions are not presented publicly at this stage."
+  },
+  {
+    "objectID": "projects/qsp.html#project-overview",
+    "href": "projects/qsp.html#project-overview",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Project overview",
+    "text": "Project overview\nMy current postdoctoral research applies quantitative systems pharmacology to translational questions in oncology drug development.\nThe work uses mechanistic computational models to connect drug mechanisms, tumor biology, immune response, biological heterogeneity, and clinical outcomes. The broader objective is to investigate how these interacting processes may shape differences in treatment response across patients and patient subgroups.\nUnlike empirical models that primarily describe associations in observed data, QSP models explicitly represent biological mechanisms and their interactions. This allows them to be used for hypothesis generation, simulation of alternative treatment scenarios, and investigation of the biological factors associated with response variability."
+  },
+  {
+    "objectID": "projects/qsp.html#scientific-focus",
+    "href": "projects/qsp.html#scientific-focus",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Scientific focus",
+    "text": "Scientific focus\nThe research addresses questions such as:\n\nHow do drug mechanisms interact with the tumor microenvironment?\nWhich biological differences may contribute to heterogeneous treatment responses?\nCan virtual populations reproduce clinically relevant variability?\nHow robust are model predictions to alternative population selections and parameter assumptions?\nWhich model components or biomarkers are most strongly associated with simulated treatment outcomes?\nHow can preclinical, mechanistic, and clinical evidence be integrated within a consistent quantitative framework?"
+  },
+  {
+    "objectID": "projects/qsp.html#modeling-approach",
+    "href": "projects/qsp.html#modeling-approach",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nThe project combines several modeling components:\n\nMechanistic model development\nBiological processes and therapeutic mechanisms are represented through systems of ordinary differential equations and mechanistic reaction networks.\nModel development includes evaluating assumptions, parameterization, initialization, numerical stability, and the relationships between model components.\n\n\nVirtual populations\nVirtual individuals are generated by varying selected biological and pharmacological parameters within plausible ranges.\nCandidate individuals are evaluated against biological and clinical constraints, and subsets are selected to reproduce relevant population characteristics.\nBecause more than one virtual population may satisfy the same calibration criteria, I also investigate robustness across alternative population selections.\n\n\nIn silico clinical trials\nSelected virtual populations are simulated under alternative treatment conditions using clinically relevant dosing and assessment schedules.\nThe simulated outcomes can then be compared with population-level clinical evidence and evaluated across relevant biological subgroups.\n\n\nBiomarker and sensitivity analyses\nSensitivity and feature analyses are used to investigate which parameters, baseline characteristics, and longitudinal biological responses are associated with simulated therapeutic outcomes.\nThese analyses support mechanistic interpretation and help identify hypotheses for further experimental or clinical investigation."
+  },
+  {
+    "objectID": "projects/qsp.html#my-contribution",
+    "href": "projects/qsp.html#my-contribution",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "My contribution",
+    "text": "My contribution\nMy work includes:\n\ndevelopment and extension of mechanistic QSP models;\nimplementation and evaluation of therapeutic mechanisms;\nparameterization using experimental and clinical literature;\nnumerical simulation and troubleshooting;\ngeneration and qualification of virtual individuals;\nselection and robustness assessment of virtual populations;\nimplementation of in silico clinical-trial workflows;\nanalysis of treatment-response and subgroup outcomes;\nglobal sensitivity and potential biomarker analyses;\ndevelopment of reproducible computational pipelines;\nscientific visualization and communication of modeling results."
+  },
+  {
+    "objectID": "projects/qsp.html#computational-workflow",
+    "href": "projects/qsp.html#computational-workflow",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Computational workflow",
+    "text": "Computational workflow\nThe project requires an iterative workflow connecting biological reasoning, computational implementation, and model evaluation:\n\nDefine the translational question.\nReview the relevant biological and clinical evidence.\nTranslate mechanisms into mathematical representations.\nEvaluate model behavior and numerical stability.\nGenerate biologically plausible virtual individuals.\nSelect and qualify virtual populations.\nSimulate treatment and clinical-assessment scenarios.\nCompare predictions with available evidence.\nEvaluate robustness and uncertainty.\nInterpret the results in the context of model assumptions and limitations."
+  },
+  {
+    "objectID": "projects/qsp.html#current-status",
+    "href": "projects/qsp.html#current-status",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Current status",
+    "text": "Current status\nThis is an active research project. The public description will be expanded when results and implementation details become appropriate for public disclosure.\nFuture updates may include:\n\npeer-reviewed publications;\nconference presentations;\ngeneralized modeling workflows;\nnon-confidential methodological examples;\ndiagrams illustrating the model-development process."
+  },
+  {
+    "objectID": "projects/qsp.html#broader-relevance",
+    "href": "projects/qsp.html#broader-relevance",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Broader relevance",
+    "text": "Broader relevance\nQSP provides a framework for integrating evidence that would otherwise remain distributed across experimental studies, clinical trials, and biological literature.\nIts value is not limited to predicting a single outcome. It can also make assumptions explicit, reveal gaps in available evidence, test mechanistic hypotheses, and help prioritize questions for further investigation."
+  },
+  {
+    "objectID": "projects/qsp.html#methods-and-expertise",
+    "href": "projects/qsp.html#methods-and-expertise",
+    "title": "Quantitative Systems Pharmacology in Oncology",
+    "section": "Methods and expertise",
+    "text": "Methods and expertise\nQSP Oncology Mechanistic modeling ODE systems Virtual populations In silico trials Sensitivity analysis Biomarker investigation\nReturn to projects"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My work combines mechanistic reasoning, quantitative analysis, and computational implementation. Projects are organized by their primary scientific application and tagged by the methods used."
+  },
+  {
+    "objectID": "projects.html#quantitative-systems-pharmacology",
+    "href": "projects.html#quantitative-systems-pharmacology",
+    "title": "Projects",
+    "section": "Quantitative Systems Pharmacology",
+    "text": "Quantitative Systems Pharmacology\nProjects using mechanistic models and virtual populations to connect drug mechanisms, biological heterogeneity, and treatment response.\n\nOncology drug development\nMy current postdoctoral research applies quantitative systems pharmacology to questions in oncology drug development. This work integrates therapeutic mechanisms, tumor biology, immune response, and biological heterogeneity within mechanistic computational models.\nMy contributions include model development, virtual-population generation, in silico clinical-trial simulation, treatment-response analysis, and investigation of potential biomarkers.\nBecause this work is part of an ongoing academic–industry collaboration, project-specific models, compounds, results, and implementation details are not presented publicly at this stage.\nLearn more\nCurrent research Oncology QSP Virtual populations In silico trials"
+  },
+  {
+    "objectID": "projects.html#pharmacometrics-and-pkpd",
+    "href": "projects.html#pharmacometrics-and-pkpd",
+    "title": "Projects",
+    "section": "Pharmacometrics and PK/PD",
+    "text": "Pharmacometrics and PK/PD\nPopulation pharmacokinetic, PK/PD, exposure, covariate, simulation, and uncertainty-quantification projects.\n\nPopulation pharmacokinetics of warfarin\nAn educational population PK case study exploring structural-model selection, covariate modeling, allometric scaling, model diagnostics, and bootstrap uncertainty analysis using public warfarin data.\nExplore project Access original data\nPopPK Monolix Covariate modeling Educational case study"
+  },
+  {
+    "objectID": "projects.html#mechanistic-systems-biology",
+    "href": "projects.html#mechanistic-systems-biology",
+    "title": "Projects",
+    "section": "Mechanistic Systems Biology",
+    "text": "Mechanistic Systems Biology\nPublished mechanistic models of endothelial-cell signaling, hypoxia, angiogenesis, and vascular function.\n\n\n\nHIF signaling in endothelial cells\nA validated mechanistic model resolving oxygen sensitivity, the HIF1-to-HIF2 temporal switch, PHD-mediated feedback, and VEGFA regulation under hypoxia.\nExplore project Publication\nHIF Hypoxia SimBiology\n\n\n\n\nHGF–VEGF signaling\nAn integrative model connecting HGF and VEGF signaling with endothelial-cell proliferation and vascular permeability.\nExplore project Publication\nHGF VEGF Angiogenesis\n\n\n\n\nNotch–Dll4 endothelial patterning\nA two-cell mechanistic model investigating how VEGFA, oxygen availability, and Notch–Dll4 signaling regulate endothelial tip–stalk differentiation.\nExplore project Publication\nNotch–Dll4 Cell patterning Hypoxia"
+  },
+  {
+    "objectID": "projects.html#natural-products-and-translational-modeling",
+    "href": "projects.html#natural-products-and-translational-modeling",
+    "title": "Projects",
+    "section": "Natural Products and Translational Modeling",
+    "text": "Natural Products and Translational Modeling\nQuantitative approaches for natural products, medicinal plants, and complex biological interventions.\n\nMedicinal plants as an emerging research direction\nI am developing a research direction that connects medicinal plants and natural products with quantitative pharmacology, systems biology, and translational modeling.\nInitial work focuses on organizing evidence linking medicinal plants, bioactive compounds, molecular targets, biological pathways, and disease contexts. The longer-term goal is to identify questions for which mechanistic modeling can help integrate fragmented experimental evidence and prioritize testable therapeutic hypotheses.\nThis area is presented as an emerging direction rather than as a completed research program. Public case studies will be added as the underlying datasets, research questions, and modeling workflows mature.\nEmerging research Medicinal plants Natural products Knowledge integration Mechanistic modeling"
+  }
+]

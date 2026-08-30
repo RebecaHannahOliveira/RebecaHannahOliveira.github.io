@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rebeca Oliveira"
+  site-url: "https://rebecahannaholiveira.github.io"
+  description: "Portfolio of Rebeca Oliveira, PhD — Computational Scientist in Quantitative Pharmacology."
+
+  navbar:
+    background: "#FFF4F8"
+    foreground: "#71354D"
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: about.qmd
+        text: About
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/rebeca-hannah-de-melo-oliveira/"
+        aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/RebecaHannahOliveira"
+        aria-label: GitHub
+
+  page-footer:
+    left: "© 2026 Rebeca Oliveira"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true

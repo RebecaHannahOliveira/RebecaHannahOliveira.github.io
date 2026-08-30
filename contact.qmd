@@ -1,0 +1,29 @@
+---
+title: "Contact"
+description: "Contact Rebeca Oliveira for scientific collaboration and quantitative modeling opportunities."
+toc: false
+---
+
+## Let’s connect
+
+I am interested in scientific collaborations and opportunities involving
+quantitative pharmacology, mechanistic modeling, pharmacometrics, and
+translational research.
+
+You can reach me through:
+
+::: {.project-card}
+
+### Email
+
+[rhdmo94@gmail.com](mailto:rhdmo94@gmail.com)
+
+### LinkedIn
+
+[linkedin.com/in/rebeca-hannah-de-melo-oliveira](https://www.linkedin.com/in/rebeca-hannah-de-melo-oliveira/)
+
+### GitHub
+
+[github.com/RebecaHannahOliveira](https://github.com/RebecaHannahOliveira)
+
+:::

@@ -1,0 +1,57 @@
+---
+title: "About"
+toc: false
+---
+
+## Scientist, engineer, and model builder
+
+I am a Brazilian biomedical engineer and computational scientist with a
+PhD in Biomedical Engineering from Johns Hopkins University. I am currently
+a postdoctoral fellow at the Popel Systems Biology Lab (Johns Hopkins University School of Medicine),
+where I develop mechanistic models to support translational research and
+drug development.
+
+My work lies at the intersection of biology, pharmacology, and computation.
+I use mathematical models to organize complex biological knowledge, test
+mechanistic hypotheses, quantify uncertainty, identify biomarkers and investigate how differences
+between individuals may influence treatment response.
+
+## My research path
+
+My research began in mechanistic systems biology, with models of signaling
+and regulatory processes involving Notch-Dll4, hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF),
+and hypoxia-inducible factor (HIF). These projects taught me how to translate
+biological mechanisms into mathematical structures and how to use models to
+generate experimentally relevant insight.
+
+I subsequently expanded into quantitative systems pharmacology, oncology,
+and virtual-population modeling. This work focuses on connecting drug
+mechanisms and biological heterogeneity with clinically relevant outcomes.
+
+I am now building additional expertise in pharmacometrics, including
+noncompartmental analysis, population pharmacokinetics, covariate modeling,
+model diagnostics, simulation, and uncertainty quantification.
+
+## How I approach modeling
+
+I am especially interested in models that are:
+
+- mechanistically interpretable;
+- informed by experimental or clinical data;
+- transparent about uncertainty and limitations;
+- evaluated for numerical and predictive robustness;
+- designed to answer a clear scientific or therapeutic question.
+
+For me, a model is most useful when it does more than reproduce observations:
+it should clarify assumptions, connect evidence across scales, and help guide
+the next scientific decision.
+
+## Emerging directions
+
+A long-term goal of my work is to apply quantitative pharmacology and systems
+modeling to a broader range of therapeutic questions. I am particularly
+interested in natural products, medicinal plants, and complex interventions
+that are difficult to investigate using conventional single-target approaches.
+
+This direction brings together my background in mechanistic modeling with
+my growing experience in pharmacometrics and translational pharmacology.

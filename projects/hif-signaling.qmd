@@ -1,0 +1,129 @@
+---
+title: "Mechanistic Modeling of HIF Signaling"
+subtitle: "Resolving the HIF1-to-HIF2 switch in endothelial cells under hypoxia"
+description: "A validated mechanistic model of endothelial oxygen sensing and HIF isoform-specific regulation."
+date: "2026-06-19"
+categories:
+  - Mechanistic Systems Biology
+  - HIF
+  - Hypoxia
+  - ODE Modeling
+toc: true
+toc-depth: 2
+---
+
+## Project overview
+
+Hypoxia activates cellular oxygen-sensing mechanisms that promote adaptation,
+survival, and angiogenesis. Although HIF1 and HIF2 are both central to this
+response, they exhibit different temporal behaviors and regulatory roles that
+are difficult to resolve experimentally.
+
+This project developed a mechanistic model of the PHD-HIF-VEGFA signaling
+axis in endothelial cells, with explicit representation of HIF1α, HIF2α,
+PHD2, PHD3, and VEGFA mRNA.
+
+::: {.project-card}
+
+### At a glance
+
+- **Application:** endothelial hypoxia signaling
+- **Model type:** mechanistic ordinary differential equation model
+- **Calibration:** particle swarm optimization followed by local refinement
+- **Evaluation:** identifiability analysis, uncertainty quantification, residual analysis, and independent validation
+- **Software:** MATLAB and SimBiology
+- **Publication:** iScience, 2026
+
+:::
+
+## Scientific question
+
+How do oxygen availability, HIF isoform dynamics, and PHD-mediated feedback
+interact to regulate endothelial responses during acute and prolonged hypoxia?
+
+The model was designed to investigate:
+
+- graded sensitivity to oxygen availability;
+- the transition from an acute HIF1-dominated response to a prolonged
+  HIF2-dominated response;
+- the relative contributions of HIF1 and HIF2 to VEGFA regulation;
+- the distinct effects of PHD2 and PHD3 inhibition.
+
+## Modeling approach
+
+The model integrates oxygen-dependent hydroxylation and degradation of HIF
+proteins, nuclear signaling, transcriptional feedback, and VEGFA mRNA
+regulation.
+
+The development workflow included:
+
+1. literature-based model construction;
+2. structural identifiability analysis;
+3. practical identifiability analysis;
+4. global parameter estimation using particle swarm optimization;
+5. local parameter refinement;
+6. uncertainty quantification;
+7. validation against independent experimental datasets;
+8. predictive simulations under new oxygen and inhibition scenarios.
+
+## Key findings
+
+### Time-dependent HIF isoform switch
+
+The model reproduced a rapid HIF1α response after the onset of hypoxia,
+followed by a delayed and more sustained HIF2α response. This captured the
+experimentally reported transition from acute HIF1-dominated signaling to
+prolonged HIF2-dominated signaling.
+
+### Oxygen-dependent response
+
+Simulations predicted graded stabilization of HIF1α and HIF2α across oxygen
+levels, accompanied by dose- and time-dependent induction of VEGFA mRNA.
+
+### Distinct roles of PHD2 and PHD3
+
+Perturbation simulations predicted that PHD2 and PHD3 have complementary,
+non-redundant, and isoform-specific effects on HIF stabilization and VEGFA
+regulation.
+
+### Fractional regulation of VEGFA
+
+The model quantified the changing contributions of HIF1 and HIF2 to VEGFA
+mRNA regulation during prolonged hypoxia.
+
+## Model evaluation
+
+The model was calibrated using endothelial-cell experimental data and
+validated against independent datasets not used for parameter estimation.
+
+Across validation observables:
+
+- Pearson correlations ranged from 0.70 to 0.95;
+- Runs tests showed no systematic residual bias (`p ≥ 0.35`);
+- the model reproduced the major temporal trends of HIF1α, HIF2α, and
+  VEGFA mRNA.
+
+The analysis also documented limitations arising from heterogeneous
+experimental datasets, measurement platforms, and oxygen conditions.
+
+## My contribution
+
+I co-developed the study concept, constructed the complete computational
+model, performed all simulations and quantitative analyses, and wrote the
+initial manuscript draft.
+
+## Scientific value
+
+The model provides a technically evaluated and reusable representation of
+endothelial hypoxia signaling. It can serve as a module for larger models of
+ischemic disease, angiogenesis, tumor hypoxia, and quantitative systems
+pharmacology.
+
+## Publication and model access
+
+**Oliveira, R. H. M., Pathak, A. P., & Popel, A. S. (2026).**  
+*A mechanistic computational model of the HIF signaling pathway in
+endothelial cells.* **iScience, 29**(6), 116195.
+
+[Read the article](https://doi.org/10.1016/j.isci.2026.116195){.btn .btn-primary}
+[Download the SBML model](https://doi.org/10.5281/zenodo.19501562){.btn .btn-outline-primary}

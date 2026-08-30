@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Population Pharmacokinetics of Warfarin – Rebeca Oliveira</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2bba0e57a3ce0e8c677093f434e90104.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Rebeca Oliveira</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/rebeca-hannah-de-melo-oliveira/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/RebecaHannahOliveira"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project overview</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
+  <li><a href="#educational-objectives" id="toc-educational-objectives" class="nav-link" data-scroll-target="#educational-objectives">Educational objectives</a></li>
+  <li><a href="#model-development-workflow" id="toc-model-development-workflow" class="nav-link" data-scroll-target="#model-development-workflow">Model-development workflow</a></li>
+  <li><a href="#structural-model-investigation" id="toc-structural-model-investigation" class="nav-link" data-scroll-target="#structural-model-investigation">Structural-model investigation</a></li>
+  <li><a href="#final-population-pk-model" id="toc-final-population-pk-model" class="nav-link" data-scroll-target="#final-population-pk-model">Final population PK model</a></li>
+  <li><a href="#final-parameter-estimates" id="toc-final-parameter-estimates" class="nav-link" data-scroll-target="#final-parameter-estimates">Final parameter estimates</a></li>
+  <li><a href="#covariate-assessment" id="toc-covariate-assessment" class="nav-link" data-scroll-target="#covariate-assessment">Covariate assessment</a></li>
+  <li><a href="#bootstrap-uncertainty-analysis" id="toc-bootstrap-uncertainty-analysis" class="nav-link" data-scroll-target="#bootstrap-uncertainty-analysis">Bootstrap uncertainty analysis</a></li>
+  <li><a href="#model-diagnostics" id="toc-model-diagnostics" class="nav-link" data-scroll-target="#model-diagnostics">Model diagnostics</a></li>
+  <li><a href="#sampling-design-investigation" id="toc-sampling-design-investigation" class="nav-link" data-scroll-target="#sampling-design-investigation">Sampling-design investigation</a></li>
+  <li><a href="#key-lessons" id="toc-key-lessons" class="nav-link" data-scroll-target="#key-lessons">Key lessons</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  <li><a href="#data-and-scientific-references" id="toc-data-and-scientific-references" class="nav-link" data-scroll-target="#data-and-scientific-references">Data and scientific references</a></li>
+  <li><a href="#reproducibility-and-use" id="toc-reproducibility-and-use" class="nav-link" data-scroll-target="#reproducibility-and-use">Reproducibility and use</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Population Pharmacokinetics of Warfarin</h1>
+<p class="subtitle lead">An educational case study in nonlinear mixed-effects model development</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Pharmacometrics</div>
+    <div class="quarto-category">Population PK</div>
+    <div class="quarto-category">Covariate Modeling</div>
+    <div class="quarto-category">Monolix</div>
+    <div class="quarto-category">Educational Project</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Educational scope
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an independent educational case study developed to build practical experience in population pharmacokinetic modeling with Monolix and R.</p>
+<p>The analysis was not designed for clinical decision-making, dose selection, regulatory use, or publication. Results should therefore be interpreted as a demonstration of model-development reasoning rather than as a new clinical model of warfarin.</p>
+</div>
+</div>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project overview</h2>
+<p>I used a publicly available warfarin pharmacokinetic dataset to develop and evaluate a population PK model through a stepwise nonlinear mixed-effects modeling workflow.</p>
+<p>The project focused on learning how structural, statistical, and covariate modeling decisions interact. Rather than selecting a model solely from its objective function, I evaluated convergence, parameter precision, diagnostic plots, biological plausibility, and bootstrap stability.</p>
+<p>The final model was a parsimonious one-compartment model with delayed first-order absorption, linear elimination, a combined residual-error model, fixed allometric effects of body weight, and an estimated effect of age on clearance.</p>
+</section>
+<section id="dataset" class="level2">
+<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
+<p>The dataset contains single-dose warfarin pharmacokinetic observations from <strong>32 healthy volunteers</strong>, with <strong>251 plasma concentration measurements</strong>.</p>
+<p>Available subject characteristics included:</p>
+<ul>
+<li>body weight;</li>
+<li>age;</li>
+<li>sex;</li>
+<li>administered dose;</li>
+<li>sampling time;</li>
+<li>plasma warfarin concentration.</li>
+</ul>
+<p>The study included measurements extending from the absorption phase through 120 hours after administration. Sampling intensity varied between individuals, creating both richly sampled and relatively sparse concentration-time profiles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/warfarin/warfarin_concentration_time.png" class="img-fluid figure-img" style="width:100.0%" alt="Median observed warfarin concentrations and population and individual model predictions from zero to 120 hours after dosing."></p>
+<figcaption>Observed median concentrations and population and individual predictions over time. The shaded region represents the observed interquartile range.</figcaption>
+</figure>
+</div>
+<p>The dataset is distributed as an educational example with MonolixSuite and was originally derived from clinical studies by O’Reilly and colleagues.</p>
+<p><a href="https://monolixsuite.slp-software.com/monolix/2024R1/warfarin-data-set" class="btn btn-primary">Access the Monolix warfarin dataset</a></p>
+</section>
+<section id="educational-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="educational-objectives">Educational objectives</h2>
+<p>The main objectives were to gain practical experience with:</p>
+<ul>
+<li>exploratory analysis of longitudinal PK data;</li>
+<li>structural model selection;</li>
+<li>residual-error model selection;</li>
+<li>interindividual variability;</li>
+<li>covariate screening and model building;</li>
+<li>fixed allometric scaling;</li>
+<li>SAEM convergence assessment;</li>
+<li>goodness-of-fit diagnostics;</li>
+<li>visual predictive checks;</li>
+<li>random-effect and residual diagnostics;</li>
+<li>nonparametric bootstrap uncertainty analysis;</li>
+<li>recognizing overparameterization and weak identifiability.</li>
+</ul>
+</section>
+<section id="model-development-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="model-development-workflow">Model-development workflow</h2>
+<p>I evaluated 15 candidate models representing combinations of:</p>
+<ul>
+<li>one- and two-compartment disposition;</li>
+<li>delayed and non-delayed absorption;</li>
+<li>alternative residual-error models;</li>
+<li>different random-effect structures;</li>
+<li>weight and age covariate effects;</li>
+<li>estimated and fixed allometric relationships;</li>
+<li>alternative initial parameter values.</li>
+</ul>
+<p>Model development was performed iteratively. Each modification was evaluated using parameter estimates, relative standard errors, information criteria, convergence traces, diagnostic plots, and biological interpretability.</p>
+</section>
+<section id="structural-model-investigation" class="level2">
+<h2 class="anchored" data-anchor-id="structural-model-investigation">Structural-model investigation</h2>
+<p>A two-compartment model improved the likelihood-based criteria and produced reasonable individual predictions. However, the apparent improvement was not supported by adequate parameter stability.</p>
+<p>In particular, intercompartmental clearance (Q) showed:</p>
+<ul>
+<li>a high relative standard error;</li>
+<li>strong sensitivity to initialization;</li>
+<li>an extremely broad and asymmetric bootstrap distribution;</li>
+<li>occasional implausibly large estimates in resampled datasets.</li>
+</ul>
+<p>The bootstrap mean for (Q) was strongly influenced by extreme runs and was substantially different from its median and reference estimate. This indicated that the available sampling design did not reliably support estimation of the additional distribution parameters.</p>
+<p>For this reason, the two-compartment model was not retained despite its lower objective function.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Modeling lesson
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A more complex model can improve likelihood-based criteria while still being poorly supported by the data. Parameter stability, identifiability, and predictive behavior must be considered together with AIC, BIC, and the objective function.</p>
+</div>
+</div>
+</section>
+<section id="final-population-pk-model" class="level2">
+<h2 class="anchored" data-anchor-id="final-population-pk-model">Final population PK model</h2>
+<p>The selected model consisted of:</p>
+<ul>
+<li>one disposition compartment;</li>
+<li>first-order absorption;</li>
+<li>an absorption lag time;</li>
+<li>linear elimination;</li>
+<li>lognormally distributed individual parameters;</li>
+<li>interindividual variability on (k_a), (V), and (Cl);</li>
+<li>fixed allometric effects of body weight;</li>
+<li>an estimated age effect on clearance;</li>
+<li>a combined additive and proportional residual-error model.</li>
+</ul>
+<p>For individual (i), volume and clearance were represented as:</p>
+<p><span class="math display">\[
+V_i =
+V_{\mathrm{pop}}
+\left(\frac{WT_i}{70}\right)^1
+\exp(\eta_{V,i})
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+Cl_i =
+Cl_{\mathrm{pop}}
+\left(\frac{WT_i}{70}\right)^{0.75}
+\exp\left(\beta_{\mathrm{age}}\,
+\frac{AGE_i-40}{10}\right)
+\exp(\eta_{Cl,i}).
+\]</span></p>
+<p>The fixed exponents of 1 for volume and 0.75 for clearance reflect conventional allometric scaling assumptions.</p>
+<p>The combined residual-error model was:</p>
+<p><span class="math display">\[
+y_{ij} =
+\hat y_{ij} +
+\left(a+b\hat y_{ij}\right)\varepsilon_{ij},
+\qquad
+\varepsilon_{ij}\sim\mathcal N(0,1).
+\]</span></p>
+</section>
+<section id="final-parameter-estimates" class="level2">
+<h2 class="anchored" data-anchor-id="final-parameter-estimates">Final parameter estimates</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Description</th>
+<th style="text-align: right;">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(Tlag_{\mathrm{pop}}\)</span></td>
+<td>Absorption lag time</td>
+<td style="text-align: right;">0.828 h</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(k_{a,\mathrm{pop}}\)</span></td>
+<td>First-order absorption rate</td>
+<td style="text-align: right;">1.287 h<span class="math inline">\(^{-1}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(V_{\mathrm{pop}}\)</span></td>
+<td>Volume for a 70-kg individual</td>
+<td style="text-align: right;">8.026 L</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Cl_{\mathrm{pop}}\)</span></td>
+<td>Clearance for a 40-year-old, 70-kg individual</td>
+<td style="text-align: right;">0.146 L/h</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\beta_{\mathrm{Cl,age}}\)</span></td>
+<td>Age effect on clearance per decade</td>
+<td style="text-align: right;">0.095</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega_{ka}\)</span></td>
+<td>Random-effect SD for absorption</td>
+<td style="text-align: right;">0.948</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\omega_V\)</span></td>
+<td>Random-effect SD for volume</td>
+<td style="text-align: right;">0.141</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega_{Cl}\)</span></td>
+<td>Random-effect SD for clearance</td>
+<td style="text-align: right;">0.246</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(a\)</span></td>
+<td>Additive-error parameter</td>
+<td style="text-align: right;">0.281</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(b\)</span></td>
+<td>Proportional-error parameter</td>
+<td style="text-align: right;">0.0718</td>
+</tr>
+</tbody>
+</table>
+<p>Within this dataset, the estimated age coefficient corresponds to an approximately 10% increase in typical clearance per decade:</p>
+<p><span class="math display">\[
+\exp(0.095)\approx 1.10.
+\]</span></p>
+<p>This relationship should be treated as an exploratory dataset-specific result, not as a clinical conclusion.</p>
+</section>
+<section id="covariate-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="covariate-assessment">Covariate assessment</h2>
+<p>Initial diagnostic analyses showed strong relationships between individual volume estimates and body weight and a weaker relationship between clearance and body weight.</p>
+<p>Weight effects on volume and clearance were therefore represented through fixed allometric scaling. This reduced the need to estimate poorly supported covariate exponents while retaining a physiologically interpretable relationship.</p>
+<p>After accounting for weight, age remained associated with the clearance random effect. An age effect was consequently evaluated and retained in the final educational model.</p>
+<p>Sex was investigated but was not retained after accounting for the available continuous covariates.</p>
+</section>
+<section id="bootstrap-uncertainty-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="bootstrap-uncertainty-analysis">Bootstrap uncertainty analysis</h2>
+<p>A nonparametric bootstrap with <strong>200 resampled datasets</strong> was used to examine parameter stability.</p>
+<p>Selected bootstrap results were:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th style="text-align: right;">Reference</th>
+<th style="text-align: right;">Bootstrap median</th>
+<th style="text-align: right;">95% interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(Tlag_{\mathrm{pop}}\)</span></td>
+<td style="text-align: right;">0.828</td>
+<td style="text-align: right;">0.841</td>
+<td style="text-align: right;">0.595–1.367</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(k_{a,\mathrm{pop}}\)</span></td>
+<td style="text-align: right;">1.287</td>
+<td style="text-align: right;">1.280</td>
+<td style="text-align: right;">0.639–4.697</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(V_{\mathrm{pop}}\)</span></td>
+<td style="text-align: right;">8.026</td>
+<td style="text-align: right;">8.079</td>
+<td style="text-align: right;">7.648–8.521</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Cl_{\mathrm{pop}}\)</span></td>
+<td style="text-align: right;">0.146</td>
+<td style="text-align: right;">0.147</td>
+<td style="text-align: right;">0.127–0.178</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\beta_{\mathrm{Cl,age}}\)</span></td>
+<td style="text-align: right;">0.095</td>
+<td style="text-align: right;">0.096</td>
+<td style="text-align: right;">0.010–0.226</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega_{ka}\)</span></td>
+<td style="text-align: right;">0.948</td>
+<td style="text-align: right;">0.968</td>
+<td style="text-align: right;">0.557–1.715</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\omega_V\)</span></td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">0.135</td>
+<td style="text-align: right;">0.083–0.164</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega_{Cl}\)</span></td>
+<td style="text-align: right;">0.246</td>
+<td style="text-align: right;">0.231</td>
+<td style="text-align: right;">0.148–0.300</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/warfarin/warfarin_bootstrap_uncertainty.png" class="img-fluid figure-img" style="width:100.0%" alt="Forest plot showing bootstrap medians and 95 percent intervals relative to the original estimate for fixed effects, interindividual variability, and residual-error parameters."></p>
+<figcaption>Bootstrap medians and 95% intervals expressed relative to the original model estimates.</figcaption>
+</figure>
+</div>
+<p>Volume and clearance were estimated relatively consistently across bootstrap samples. Absorption parameters and the age effect were more uncertain, reflecting limited information about early absorption and the small number of participants.</p>
+</section>
+<section id="model-diagnostics" class="level2">
+<h2 class="anchored" data-anchor-id="model-diagnostics">Model diagnostics</h2>
+<p>Population and individual predictions generally captured the concentration-time profiles, and individual predictions aligned closely with observed concentrations.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/warfarin/warfarin_observed_vs_predicted.png" class="img-fluid figure-img" style="width:100.0%" alt="Goodness-of-fit plots comparing observed warfarin concentrations with population predictions and individual predictions."></p>
+<figcaption>Observed warfarin concentrations compared with population and individual predictions.</figcaption>
+</figure>
+</div>
+<p>The visual predictive check showed that the observed central tendency was generally represented by the model and that most observations remained within the simulated prediction interval.</p>
+<p>However, the diagnostic analysis also identified limitations:</p>
+<ul>
+<li>several residual-distribution tests rejected normality;</li>
+<li>the clearance random effects departed from the assumed normal distribution;</li>
+<li>a small number of individuals had large standardized clearance effects;</li>
+<li>sparse or late-only sampling limited individual information for some subjects;</li>
+<li>absorption variability remained imprecisely estimated.</li>
+</ul>
+<p>These findings were retained as part of the model evaluation rather than hidden by selecting the most favorable diagnostics.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/warfarin/warfarin_residual_diagnostics.png" class="img-fluid figure-img" style="width:100.0%" alt="Individual weighted residuals versus time and individual model predictions, with smooth trend lines and reference lines at zero and plus or minus two."></p>
+<figcaption>Individual weighted residuals plotted against time and individual predictions.</figcaption>
+</figure>
+</div>
+</section>
+<section id="sampling-design-investigation" class="level2">
+<h2 class="anchored" data-anchor-id="sampling-design-investigation">Sampling-design investigation</h2>
+<p>Inspection of individuals with large standardized clearance effects showed that these estimates were not explained by a single sampling category.</p>
+<p>Both richly sampled and late-only participants contributed to the extremes. This suggested that the observed behavior reflected a combination of genuine individual profiles, residual variability, small-sample effects, and limited information rather than a simple data-processing error.</p>
+<p>The exercise reinforced the importance of evaluating individual parameter estimates in the context of each subject’s observation schedule.</p>
+</section>
+<section id="key-lessons" class="level2">
+<h2 class="anchored" data-anchor-id="key-lessons">Key lessons</h2>
+<p>This project provided practical experience with several central principles of population PK model development:</p>
+<ol type="1">
+<li><p><strong>Model complexity must be supported by the data.</strong><br>
+A lower objective function did not justify retaining an unstable two-compartment structure.</p></li>
+<li><p><strong>Covariate selection requires multiple forms of evidence.</strong><br>
+Statistical tests, diagnostic plots, biological plausibility, uncertainty, and parameter stability were considered together.</p></li>
+<li><p><strong>Bootstrap distributions can reveal weaknesses hidden by local standard errors.</strong><br>
+The instability of (Q) became especially clear through resampling.</p></li>
+<li><p><strong>Good individual predictions are not sufficient evidence of model adequacy.</strong><br>
+Residual behavior, parameter distributions, predictive diagnostics, and uncertainty must also be examined.</p></li>
+<li><p><strong>Transparent limitations strengthen an educational analysis.</strong><br>
+The final model is useful as a learning exercise while remaining subject to the limitations of a small historical dataset.</p></li>
+</ol>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<p><span class="project-tag">Monolix</span> <span class="project-tag">R</span> <span class="project-tag">SAEM</span> <span class="project-tag">PopPK</span> <span class="project-tag">Bootstrap</span> <span class="project-tag">Covariate modeling</span></p>
+</section>
+<section id="data-and-scientific-references" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-scientific-references">Data and scientific references</h2>
+<p>The dataset and original clinical context are available from the following sources:</p>
+<ul>
+<li><a href="https://monolixsuite.slp-software.com/monolix/2024R1/warfarin-data-set">MonolixSuite: Warfarin dataset and downloadable data file</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/11712286/">O’Reilly and Aggeler (1968): Initiation of warfarin therapy without a loading dose</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/14074349/">O’Reilly (1963): The pharmacodynamics of warfarin in man</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/3542339/">Holford (1986): Clinical pharmacokinetics and pharmacodynamics of warfarin</a></li>
+<li><a href="https://doi.org/10.1002/psp4.70039">Vuong, Verbeke, and Dreesen (2025): Warfarin PopPK case study and publicly available supporting data</a></li>
+</ul>
+</section>
+<section id="reproducibility-and-use" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility-and-use">Reproducibility and use</h2>
+<p>This project uses public educational data and independently developed model files and analysis scripts.</p>
+<p>Any code shared with this case study is intended for demonstration and reproducibility. It has not been validated for clinical, regulatory, or dosing applications.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rebecahannaholiveira\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Rebeca Oliveira</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

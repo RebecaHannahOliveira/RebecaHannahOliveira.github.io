@@ -1,0 +1,111 @@
+---
+title: "Curriculum Vitae"
+description: "Scientific background, research experience, education, and quantitative modeling expertise."
+toc: true
+toc-depth: 2
+---
+
+## Professional profile
+
+Computational scientist with training in electrical and biomedical engineering
+and experience in mechanistic systems biology, quantitative systems
+pharmacology, translational modeling, virtual populations, and population
+pharmacokinetics.
+
+My research combines biological mechanisms, mathematical modeling, and
+experimental or clinical data to investigate treatment response and support
+scientific decision-making.
+
+[Email me](mailto:rhdmo94@gmail.com){.btn .btn-primary}
+[LinkedIn](https://www.linkedin.com/in/rebeca-hannah-de-melo-oliveira/){.btn .btn-outline-primary}
+
+## Professional experience
+
+### Postdoctoral Fellow
+
+**Popel Systems Biology Laboratory**  
+**Johns Hopkins University School of Medicine**  
+October 2025 – present
+
+- Developing mechanistic QSP models for oncology drug development.
+- Modeling multispecific therapeutic mechanisms.
+- Integrating drug mechanisms with tumor and microenvironment biology.
+- Generating and evaluating virtual populations.
+- Supporting in silico clinical-trial simulation and biomarker analysis.
+- Applying sensitivity and uncertainty analyses to investigate biological heterogeneity.
+
+## Education
+
+### PhD in Biomedical Engineering
+
+**Johns Hopkins University**  
+2020–2025
+
+Research in mechanistic computational modeling of angiogenesis, cellular
+signaling, cerebral hemodynamics, and disease-related biological processes.
+
+### Master’s Degree in Biomedical Engineering
+
+**University of Brasília**  
+2018–2020
+
+Research involving machine learning, peripheral arterial disease, medical
+devices, physiological modeling, and biomaterials.
+
+### Bachelor’s Degree in Electrical Engineering
+
+**University Center of Brasília**  
+2013–2018
+
+Training in engineering, electronics, signal processing, programming,
+and biomedical-device development.
+
+## Quantitative modeling expertise
+
+- Quantitative systems pharmacology
+- Mechanistic systems biology
+- Population pharmacokinetics and PK/PD
+- Virtual populations and in silico trials
+- Ordinary differential equation modeling
+- Parameter estimation and model calibration
+- Global sensitivity and uncertainty analysis
+- Machine-learning integration
+- Image-informed computational modeling
+
+## Selected honors and awards
+
+- **Van Harreveld Memorial Award**, American Physiology Summit, 2025
+- **Zweifach Graduate Student Travel Award**, American Physiology Summit, 2025
+- **CAPES-Fulbright PhD Scholarship**, 2020
+- **Women in Science Program**, British Council, 2019
+- **Outstanding Award in the Exact and Technological Sector**, University of Brasília Scientific Initiation Congress, 2018
+- **Brazil Scientific Mobility Program Scholarship**, CAPES, 2015 - Purdue University, IN, USA
+
+## Teaching and mentoring
+
+
+- Head Teaching Assistant for *Biological Models and Simulations* at Johns Hopkins University
+- Undergraduate student final-project advising
+- Teaching Assistant in calculus, physics, differential equations, numerical methods, circuits, signal processing, and programming
+
+## Research experience
+
+My research experience includes:
+
+- mechanistic modeling of Notch, HGF, VEGF, and HIF signaling;
+- angiogenesis and peripheral arterial disease;
+- cancer immunotherapy and quantitative oncology;
+- cerebral blood-flow and image-informed modeling;
+- machine learning/deep learning models for cerebral hemodynamics and cardiovascular data;
+- biomedical devices and physiological systems;
+- biomaterials and chronic-wound technologies.
+
+## Publications
+
+See the [Publications](publications.qmd) page for peer-reviewed articles,
+conference contributions, and selected project summaries.
+
+## Downloadable CV
+
+[Download PDF CV](assets/Rebeca_Oliveira_Public_CV.pdf){.btn .btn-primary target="_blank"}
+[View publications](publications.qmd){.btn .btn-outline-primary}

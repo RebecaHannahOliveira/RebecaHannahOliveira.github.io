@@ -1,0 +1,149 @@
+---
+title: "Publications"
+description: "Peer-reviewed research in mechanistic modeling, systems biology, biomedical engineering, and translational science."
+toc: true
+toc-depth: 2
+---
+
+My publications span mechanistic systems biology, angiogenesis, physiological
+modeling, biomedical devices, biomaterials, and computational methods.
+
+The selected publications below represent the central development of my
+mechanistic modeling research.
+
+[View my Google Scholar profile](https://scholar.google.com/citations?user=LM9WspQAAAAJ&hl=en){.btn .btn-primary}
+
+## Selected mechanistic modeling publications
+
+::: {.project-card}
+
+### Mechanistic computational model of HIF signaling
+
+**Oliveira, R. H. M., Pathak, A. P., & Popel, A. S. (2026).**  
+*A mechanistic computational model of the HIF signaling pathway.*  
+**iScience, 29**(6), 116195.
+
+This study developed a mechanistic model of hypoxia-inducible factor
+signaling to investigate the regulation and dynamics of cellular responses
+to hypoxia.
+
+[View publication](https://doi.org/10.1016/j.isci.2026.116195){.btn .btn-outline-primary}
+
+[Explore project](projects/hif-signaling.qmd){.btn .btn-primary}
+
+<span class="project-tag">HIF</span>
+<span class="project-tag">Hypoxia</span>
+<span class="project-tag">Mechanistic modeling</span>
+
+:::
+
+::: {.project-card}
+
+### HGF-VEGF signaling in endothelial cells
+
+**Oliveira, R. H. M., Patil, A., Annex, B. H., Pathak, A. P., & Popel, A. S. (2025).**  
+*Mechanistic computational model of HGF-VEGF mediated endothelial cell
+proliferation and vascular permeability.*  
+**iScience, 28**(8), 113199.
+
+This work integrated HGF and VEGF signaling to investigate endothelial-cell
+proliferation and vascular permeability under conditions relevant to
+angiogenesis and vascular disease.
+
+[View publication](https://doi.org/10.1016/j.isci.2025.113199){.btn .btn-outline-primary}
+
+[Explore project](projects/hgf-vegf-signaling.qmd){.btn .btn-primary}
+
+<span class="project-tag">HGF</span>
+<span class="project-tag">VEGF</span>
+<span class="project-tag">Angiogenesis</span>
+
+:::
+
+::: {.project-card}
+
+### Notch-Dll4 signaling and endothelial patterning
+
+**Oliveira, R. H. M., Annex, B. H., & Popel, A. S. (2024).**  
+*Endothelial cells signaling and patterning under hypoxia: a mechanistic
+integrative computational model including the Notch-Dll4 pathway.*  
+**Frontiers in Physiology, 15**, 1351753.
+
+This study used an integrative mechanistic model to investigate how
+Notch-Dll4 and other pro-angiogenic signals regulate endothelial-cell
+patterning under hypoxia.
+
+[View publication](https://doi.org/10.3389/fphys.2024.1351753){.btn .btn-outline-primary}
+
+[Explore project](projects/notch-dll4.qmd){.btn .btn-primary}
+
+<span class="project-tag">Notch-Dll4</span>
+<span class="project-tag">Endothelial cells</span>
+<span class="project-tag">Hypoxia</span>
+
+:::
+
+## Additional peer-reviewed articles
+
+1. **Oliveira, R. H. M., Oliveira, D. S., Pimenta, A. N., Santos, L. E.,
+   Lima, G. O., Fachin-Martins, E., Silva, D. B. B., Souza, J. P. B.,
+   Oliveira, J. H., & Rosa, S. S. R. F. (2023).**  
+   *Control engineering investigation of the effects of proliferative
+   diabetic retinopathy on the crystalline lens and ciliary muscle dynamic
+   behavior.* **Research on Biomedical Engineering.**  
+   [DOI](https://doi.org/10.1007/s42600-023-00297-5)
+
+2. **Santana, T. F., Oliveira, R. H. M., dos Santos, L. E., et al. (2022).**  
+   *Effect of exposure to a light-emitting diode on the physicochemical
+   characteristics of natural latex biomembranes used to treat diabetic
+   ulcers.* **Research on Biomedical Engineering.**  
+   [DOI](https://doi.org/10.1007/s42600-022-00226-y)
+
+3. **Zhang, Y., Wang, H., Oliveira, R. H. M., Zhao, C., & Popel, A. S. (2021).**  
+   *Systems biology of angiogenesis signaling: Computational models and
+   omics.* **WIREs Mechanisms of Disease**, e1550.  
+   [DOI](https://doi.org/10.1002/wsbm.1550)
+
+4. **Oliveira, R. H. M., Oliveira, D. S., Pimenta, A. N., Santos, L. E.,
+   Lima, G. O., Fachin-Martins, E., Silva, D. B. B., Souza, J. P. B.,
+   Oliveira, J. H., & Rosa, S. S. R. F. (2020).**  
+   *Improvement and analysis of a mechanically adapted Lofstrand Crutch
+   model through bond graph modelling.*  
+   **International Journal of Modelling, Identification and Control,
+   36**(3), 256–270.  
+   [DOI](https://doi.org/10.1504/IJMIC.2020.116909)
+
+5. **Ochoa, M., Rahimi, R., Zhou, J., Jiang, H., Yoon, C. K.,
+   Maddipatla, D., Narakathu, B. B., Jain, V., Oscai, M. M.,
+   Morken, T. J., Oliveira, R. H. M., & Ziaie, B. (2020).**  
+   *Integrated sensing and delivery of oxygen for next-generation smart
+   wound dressings.* **Microsystems & Nanoengineering, 6**(1), 1–16.  
+   [DOI](https://doi.org/10.1038/s41378-020-0141-7)
+
+## Book chapter
+
+**Oliveira, R. H. M., et al.**  
+*A Bond Graph Approach to Modelling of the Human Skin.*  
+In **Mechanisms and Machine Science, Volume 95**. Springer.
+
+[View chapter](https://doi.org/10.1007/978-3-030-60694-7_24)
+
+## Selected conference contributions
+
+- **Oliveira, R., Senarathna, J., Dinh, V., Popel, A. S., & Pathak, A. P. (2025).**  
+  *An image-informed computational model for predicting spatiotemporal
+  variations in cerebral blood flow.* **Physiology, 40**(S1), 0793.
+
+- *An SVM classifier with autoencoder feature extractor for breast cancer
+  diagnosis.* XIII Biomedical Engineering Symposium, 2021.
+
+- *A manufacturable smart dressing with oxygen delivery and sensing capability
+  for chronic wound management.* SPIE Micro- and Nanotechnology Sensors,
+  Systems, and Applications X, 2018.
+
+- *Prediction of nocturnal hypoglycemia in type 1 diabetes by measuring
+  heart-rate variability through a pulse sensor.* Brazilian Congress on
+  Biomedical Engineering, 2018.
+
+- *Pneumatic muscle with smart braid used in an orthosis.* ABCM International
+  Congress of Mechanical Engineering, 2017.

@@ -1,0 +1,136 @@
+---
+title: "Endothelial Patterning Through Notch–Dll4 Signaling"
+subtitle: "An integrative mechanistic model of endothelial cell signaling under hypoxia"
+date: '2024'
+categories:
+  - Mechanistic Systems Biology
+  - ODE Modeling
+  - Angiogenesis
+  - Hypoxia
+  - Notch Signaling
+---
+
+## Project overview
+
+Angiogenesis depends on coordinated signaling between neighboring endothelial cells. Through lateral inhibition mediated by the Notch–Dll4 pathway, these cells acquire distinct tip and stalk phenotypes that guide the formation of new blood vessels.
+
+I developed a mechanistic, ordinary differential equation-based model to investigate how endothelial cells communicate and differentiate under different oxygen conditions and levels of VEGFA stimulation.
+
+The model integrates intracellular and intercellular signaling to connect molecular pathway activation with endothelial cell patterning and functional responses.
+
+## Scientific question
+
+How do oxygen availability, VEGFA gradients, and Notch–Dll4 signaling interact to regulate endothelial tip–stalk patterning during angiogenesis?
+
+The work also investigated whether these mechanisms influence downstream endothelial functions, including nitric oxide production and vascular permeability.
+
+## Modeling approach
+
+The model represents two neighboring endothelial cells that receive different levels of VEGFA stimulation and communicate through the Notch–Dll4 pathway.
+
+It integrates six major signaling modules:
+
+- VEGF–VEGFR signaling
+- Notch–Dll4 lateral inhibition
+- HIF-mediated oxygen sensing
+- Akt–eNOS signaling
+- Raf–MEK–ERK signaling
+- Calcium and nitric oxide dynamics
+
+The complete model contains:
+
+- **183 molecular species**
+- **222 biochemical reactions**
+- **184 parameters**
+- **183 ordinary differential equations**
+
+Model development followed a structured workflow combining:
+
+- structural and practical identifiability analysis;
+- global sensitivity analysis;
+- parameter estimation using experimental time-course data;
+- uncertainty quantification through bootstrap analysis;
+- validation against independent experimental datasets.
+
+To quantify endothelial phenotype, I introduced the **Endothelial Cell Pattern Index (ECPI)**, a dimensionless ratio based on molecular markers associated with stalk and tip cells:
+
+$$
+\mathrm{ECPI} =
+\frac{[\mathrm{Hes1}]\,[\mathrm{VEGFR1}]}
+     {[\mathrm{Dll4}]\,[\mathrm{VEGFR2}]}
+$$
+
+Higher values indicate a stronger stalk-like signaling profile relative to a tip-like profile.
+
+## Key findings
+
+### Endothelial patterning requires differential VEGFA stimulation
+
+The model predicted that neighboring endothelial cells require unequal exposure to extracellular VEGFA to establish distinct tip and stalk signaling profiles.
+
+Hypoxia increased the activation of several angiogenic pathways but did not independently generate cell patterning when both cells received equivalent VEGFA stimulation.
+
+### Patterning mechanisms depend on oxygen and time
+
+The signaling mechanisms controlling tip–stalk differentiation differed between normoxia and hypoxia. Their relative influence also changed with the duration of hypoxic exposure.
+
+These results indicate that both oxygen availability and time under hypoxia should be considered when attempting to control endothelial phenotype.
+
+### Multiple pathways shape tip–stalk identity
+
+Although Notch signaling directly mediates lateral inhibition, global sensitivity analysis showed that VEGF, ERK, and Akt signaling parameters also strongly influenced the endothelial patterning index.
+
+This illustrates how cell fate emerges from the integrated signaling network rather than from the Notch pathway in isolation.
+
+### Notch signaling may influence vascular permeability
+
+Simulations predicted that changes in Dll4-mediated Notch activation produce different nitric oxide responses in neighboring endothelial cells.
+
+Because VEGF-induced nitric oxide contributes to vascular hyperpermeability, the model suggests a potential mechanistic connection between Notch signaling and vascular leakiness.
+
+### The model reproduced experimental Notch inhibition
+
+Simulated inhibition of γ-secretase with DAPT reduced VEGF-induced NICD and Hes1 signaling. Consequently, the two endothelial cells developed more similar molecular profiles, consistent with published experimental observations.
+
+## Calibration and validation
+
+The model was calibrated using experimental measurements of VEGF- and hypoxia-responsive signaling, including:
+
+- VEGFR2 activation;
+- Akt and ERK phosphorylation;
+- calcium signaling;
+- eNOS activation and nitric oxide production;
+- Dll4, NICD, and Hes1 dynamics;
+- HIF1α, HIF2α, and VEGFA responses.
+
+Independent datasets were used to evaluate predictions for Dll4, Akt, eNOS, ERK, and HIF signaling.
+
+Identifiability and sensitivity analyses reduced the original set of 66 unknown parameters to 20 parameters selected for estimation, improving the feasibility and interpretability of model calibration.
+
+## My contribution
+
+I led the computational development of this project. My contributions included:
+
+- conceptualization;
+- model construction and software implementation;
+- data curation;
+- parameter estimation and formal analysis;
+- identifiability, sensitivity, and uncertainty analyses;
+- model validation;
+- simulation design and visualization;
+- project administration;
+- preparation and revision of the manuscript.
+
+## Scientific value
+
+This project provides an integrative computational framework for studying how molecular signaling coordinates endothelial behavior during angiogenesis.
+
+The model can be extended to investigate interventions targeting Notch, VEGF, or related pathways in pro- and anti-angiogenic therapeutic contexts. It also established the methodological foundation for my subsequent mechanistic models of HGF–VEGF signaling and HIF pathway regulation.
+
+## Publication
+
+Oliveira, R. H. de M., Annex, B. H., and Popel, A. S. (2024).  
+**Endothelial cells signaling and patterning under hypoxia: a mechanistic integrative computational model including the Notch–Dll4 pathway.**  
+*Frontiers in Physiology*, 15, 1351753.
+
+[Read the open-access article](https://doi.org/10.3389/fphys.2024.1351753){.btn .btn-primary}

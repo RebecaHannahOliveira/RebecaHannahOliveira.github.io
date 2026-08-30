@@ -1,0 +1,161 @@
+---
+title: "Projects"
+description: "Selected projects in quantitative pharmacology, systems biology, and computational modeling."
+toc: false
+page-layout: full
+---
+
+My work combines mechanistic reasoning, quantitative analysis, and
+computational implementation. Projects are organized by their primary
+scientific application and tagged by the methods used.
+
+## Quantitative Systems Pharmacology
+
+Projects using mechanistic models and virtual populations to connect
+drug mechanisms, biological heterogeneity, and treatment response.
+
+::: {.project-card}
+
+### Oncology drug development
+
+My current postdoctoral research applies quantitative systems pharmacology
+to questions in oncology drug development. This work integrates therapeutic
+mechanisms, tumor biology, immune response, and biological heterogeneity
+within mechanistic computational models.
+
+My contributions include model development, virtual-population generation,
+in silico clinical-trial simulation, treatment-response analysis, and
+investigation of potential biomarkers.
+
+Because this work is part of an ongoing academic–industry collaboration,
+project-specific models, compounds, results, and implementation details are
+not presented publicly at this stage.
+
+[Learn more](projects/qsp.qmd){.btn .btn-primary}
+
+
+<span class="project-tag">Current research</span>
+<span class="project-tag">Oncology</span>
+<span class="project-tag">QSP</span>
+<span class="project-tag">Virtual populations</span>
+<span class="project-tag">In silico trials</span>
+
+:::
+
+## Pharmacometrics and PK/PD
+
+Population pharmacokinetic, PK/PD, exposure, covariate, simulation,
+and uncertainty-quantification projects.
+
+::: {.project-card}
+
+### Population pharmacokinetics of warfarin
+
+An educational population PK case study exploring structural-model selection,
+covariate modeling, allometric scaling, model diagnostics, and bootstrap
+uncertainty analysis using public warfarin data.
+
+[Explore project](projects/warfarin-population-pk.qmd){.btn .btn-primary}
+[Access original data](https://monolixsuite.slp-software.com/monolix/2024R1/warfarin-data-set){.btn .btn-outline-primary}
+
+<span class="project-tag">PopPK</span>
+<span class="project-tag">Monolix</span>
+<span class="project-tag">Covariate modeling</span>
+<span class="project-tag">Educational case study</span>
+
+:::
+
+## Mechanistic Systems Biology
+
+Published mechanistic models of endothelial-cell signaling, hypoxia,
+angiogenesis, and vascular function.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.project-card}
+
+### HIF signaling in endothelial cells
+
+A validated mechanistic model resolving oxygen sensitivity, the
+HIF1-to-HIF2 temporal switch, PHD-mediated feedback, and VEGFA regulation
+under hypoxia.
+
+[Explore project](projects/hif-signaling.qmd){.btn .btn-primary}
+[Publication](https://doi.org/10.1016/j.isci.2026.116195){.btn .btn-outline-primary}
+
+<span class="project-tag">HIF</span>
+<span class="project-tag">Hypoxia</span>
+<span class="project-tag">SimBiology</span>
+
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.project-card}
+
+### HGF–VEGF signaling
+
+An integrative model connecting HGF and VEGF signaling with endothelial-cell
+proliferation and vascular permeability.
+
+[Explore project](projects/hgf-vegf-signaling.qmd){.btn .btn-primary}
+[Publication](https://doi.org/10.1016/j.isci.2025.113199){.btn .btn-outline-primary}
+
+<span class="project-tag">HGF</span>
+<span class="project-tag">VEGF</span>
+<span class="project-tag">Angiogenesis</span>
+
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.project-card}
+
+### Notch–Dll4 endothelial patterning
+
+A two-cell mechanistic model investigating how VEGFA, oxygen availability,
+and Notch–Dll4 signaling regulate endothelial tip–stalk differentiation.
+
+[Explore project](projects/notch-dll4.qmd){.btn .btn-primary}
+[Publication](https://doi.org/10.3389/fphys.2024.1351753){.btn .btn-outline-primary}
+
+<span class="project-tag">Notch–Dll4</span>
+<span class="project-tag">Cell patterning</span>
+<span class="project-tag">Hypoxia</span>
+
+:::
+:::
+
+:::
+
+## Natural Products and Translational Modeling
+
+Quantitative approaches for natural products, medicinal plants,
+and complex biological interventions.
+
+::: {.project-card}
+
+### Medicinal plants as an emerging research direction
+
+I am developing a research direction that connects medicinal plants and
+natural products with quantitative pharmacology, systems biology, and
+translational modeling.
+
+Initial work focuses on organizing evidence linking medicinal plants,
+bioactive compounds, molecular targets, biological pathways, and disease
+contexts. The longer-term goal is to identify questions for which mechanistic
+modeling can help integrate fragmented experimental evidence and prioritize
+testable therapeutic hypotheses.
+
+This area is presented as an emerging direction rather than as a completed
+research program. Public case studies will be added as the underlying datasets,
+research questions, and modeling workflows mature.
+
+<span class="project-tag">Emerging research</span>
+<span class="project-tag">Medicinal plants</span>
+<span class="project-tag">Natural products</span>
+<span class="project-tag">Knowledge integration</span>
+<span class="project-tag">Mechanistic modeling</span>
+
+:::

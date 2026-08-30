@@ -1,0 +1,135 @@
+---
+title: "Mechanistic Modeling of HGF-VEGF Signaling"
+subtitle: "Investigating endothelial proliferation and vascular permeability"
+description: "An integrative mechanistic model of HGF and VEGF signaling in endothelial cells."
+date: "2025-08-15"
+categories:
+  - Mechanistic Systems Biology
+  - HGF
+  - VEGF
+  - Angiogenesis
+toc: true
+toc-depth: 2
+---
+
+## Project overview
+
+Hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF)
+are major regulators of angiogenesis. Although both can promote endothelial
+proliferation, they can have contrasting effects on vascular permeability
+and vessel stability.
+
+This project developed an integrative mechanistic model to investigate how
+HGF and VEGF separately and jointly regulate endothelial-cell proliferation
+and permeability under normoxia and hypoxia.
+
+::: {.project-card}
+
+### At a glance
+
+- **Application:** angiogenesis and vascular signaling
+- **Model type:** mechanistic ordinary differential equation model
+- **Scale:** 93 species, 112 reactions, and 186 parameters
+- **Calibration:** global parameter estimation with identifiability-based parameter selection
+- **Evaluation:** sensitivity analysis, bootstrap uncertainty quantification, residual analysis, and independent validation
+- **Software:** MATLAB and SimBiology
+- **Publication:** iScience, 2025
+
+:::
+
+## Scientific questions
+
+The model was designed to investigate:
+
+1. Which mechanisms may explain the divergent effects of HGF and VEGF on vascular permeability?
+2. How does acute hypoxia alter signaling through these pathways?
+3. Does HGF require VEGFR2 activation to influence proliferation or permeability?
+4. How might HGF and VEGF be combined to promote proliferation while maintaining vascular stability?
+
+## Modeling approach
+
+The model integrates:
+
+- VEGF-VEGFR2 signaling;
+- HGF-cMet signaling;
+- PI3K-Akt and ERK pathways;
+- calcium and nitric-oxide signaling;
+- hypoxia-dependent regulation;
+- PAK1 phosphorylation;
+- endothelial proliferation and permeability responses.
+
+Structural and practical identifiability analyses were used to identify
+estimable parameter combinations. Global sensitivity analysis then selected
+the most influential unknown parameters for calibration.
+
+To translate molecular signaling into functional predictions, the study
+introduced two model-derived quantities:
+
+- a **proliferation index**;
+- a **permeability index**.
+
+These indices enabled systematic comparison of HGF, VEGF, and combined
+stimulation across doses and oxygen conditions.
+
+## Key findings
+
+### HGF and VEGF produce distinct permeability responses
+
+Dose-response simulations predicted that HGF can counteract
+VEGF-induced endothelial permeability. However, increasing VEGF exposure
+progressively reduced the ability of HGF to maintain vascular stability.
+
+### HGF does not require VEGFR2 activation
+
+The model predicted that HGF can influence endothelial proliferation and
+permeability through cMet-mediated signaling without requiring VEGFR2
+activation.
+
+### PAK1 provides a mechanistic explanation
+
+Site-specific PAK1 phosphorylation emerged as an important mechanism
+distinguishing HGF- and VEGF-mediated permeability responses.
+
+### Context-specific pathway regulation
+
+Global sensitivity analyses showed that the parameters governing
+proliferation and permeability depend on ligand exposure, oxygen conditions,
+and the timing of the response.
+
+## Model evaluation
+
+The model was calibrated and evaluated against experimental data from
+multiple sources under normoxia and hypoxia.
+
+Key evaluation results included:
+
+- reproduction of time- and dose-dependent experimental trends;
+- validation against dose-response data not used in calibration;
+- Runs tests consistent with an absence of systematic residual bias,
+  with an average `p = 0.648`;
+- bootstrap-based uncertainty quantification;
+- agreement with reported combined HGF-VEGF effects on downstream signaling.
+
+## My contribution
+
+I co-developed the study concept, constructed the complete computational
+model, performed all simulations and quantitative analyses, and wrote the
+initial manuscript draft.
+
+## Scientific value
+
+The model provides a mechanistic framework for investigating
+pro-angiogenic strategies in diseases involving ischemia, vascular
+instability, or abnormal angiogenesis. It also demonstrates how
+molecular-signaling models can be connected to functional vascular outcomes.
+
+## Publication and model access
+
+**Oliveira, R. H. M., Patil, A., Annex, B. H., Pathak, A. P., &
+Popel, A. S. (2025).**  
+*Mechanistic computational model of HGF-VEGF-mediated endothelial cell
+proliferation and vascular permeability.*  
+**iScience, 28**(8), 113199.
+
+[Read the article](https://doi.org/10.1016/j.isci.2025.113199){.btn .btn-primary}
+[Download the model](https://doi.org/10.5281/zenodo.15428342){.btn .btn-outline-primary}

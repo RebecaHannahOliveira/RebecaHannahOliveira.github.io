@@ -1,0 +1,182 @@
+/* ---------- Color system ---------- */
+
+:root {
+  --plum: #a64d70;
+  --plum-dark: #71354d;
+  --sage: #56806a;
+  --sage-light: #e5f0e9;
+  --cream: #fcfbfd;
+  --terracotta: #d9785d;
+  --ink: #332e32;
+  --muted: #6e666c;
+  --white: #ffffff;
+}
+
+/* ---------- Global ---------- */
+
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 1180px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--plum);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 1.08;
+}
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+p {
+  color: var(--ink);
+}
+
+a {
+  color: var(--plum);
+  text-decoration-color: var(--terracotta);
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--sage);
+}
+
+/* ---------- Navigation ---------- */
+
+.navbar {
+  background-color: #fff8fa !important;
+  border-bottom: 1px solid rgba(149, 86, 107, 0.14);
+  box-shadow: 0 3px 16px rgba(109, 63, 79, 0.06);}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar .bi {
+  color: var(--plum-dark) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--sage) !important;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding: 5.5rem 0 4.5rem;
+}
+
+.hero-name {
+  color: var(--sage);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-subtitle {
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 1.3rem;
+  line-height: 1.65;
+}
+
+.hero-fields {
+  color: var(--sage);
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn-primary {
+  background-color: var(--plum);
+  border-color: var(--plum);
+}
+
+.btn-primary:hover {
+  background-color: var(--plum-dark);
+  border-color: var(--plum-dark);
+}
+
+.btn-outline-primary {
+  color: var(--plum);
+  border-color: var(--plum);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--plum);
+  border-color: var(--plum);
+}
+
+/* ---------- Cards ---------- */
+
+.project-card {
+  height: 100%;
+  padding: 1.6rem;
+  background: var(--white);
+  border: 1px solid rgba(84, 44, 93, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(62, 32, 70, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(62, 32, 70, 0.12);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-tag {
+  display: inline-block;
+  margin: 0.15rem;
+  padding: 0.25rem 0.65rem;
+  color: var(--plum);
+  background: var(--sage-light);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* ---------- Footer ---------- */
+
+.nav-footer {
+  margin-top: 4rem;
+  background-color: var(--plum-dark);
+  color: var(--white);
+}
+
+.nav-footer a,
+.nav-footer p {
+  color: var(--white);
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+}
